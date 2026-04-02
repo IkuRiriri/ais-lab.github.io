@@ -9,8 +9,12 @@ nav:
 
 {% case site.lang %}
 {% when 'en' %}
-Click [here](https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao) for Publications.
+{% include publication_list.html %}
+
+For publications before 2021, click [here](https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao).
 
 {% when 'jp' %}
-研究業績は[こちら](https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao)
+{% include publication_list.html %}
+
+2021年度以前の業績は[こちら](https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao)
 {% endcase %}

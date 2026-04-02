@@ -1,0 +1,139 @@
+journals:
+  - authors: "施真琴, 内海章, 山添大丈, 李周浩"
+    title: "事前定義計算モジュールの組込みによる隠れパラメータの誘導と深層学習の性能向上"
+    venue: "電子情報通信学会誌D, vol. 3106-D, no. 4, pp. 268-276, 2023"
+    link: "https://search.ieice.org/bin/summary.php?id=j106-d_4_268"
+    
+  - authors: "D. T. Tran, T. Satooka, J. -H. Lee"
+    title: "Mobile Module in Reconfigurable Intelligent Space: Applications and a Review of Developed Versions"
+    venue: "International Journal of Advanced Computer Science and Applications, vol. 14, no. 5, pp. 1130-1137, 2023"
+    link: "https://thesai.org/Publications/ViewPaper?Volume=14&Issue=5&Code=IJACSA&SerialNo=116"
+
+  - authors: "R. Kakiuchi, D. T. Tran, J. -H. Lee"
+    title: "Evaluation of Human Behaviour Detection and Interaction with Information Projection for Drone-Based Night-Time Security"
+    venue: "Drones, vol. 7, no. 5, 307, 2023"
+    link: "https://www.mdpi.com/2504-446X/7/5/307"
+
+  - authors: "D. T. Tran, D. D. Tran, M. A. Nguyen, Q. V. Pham, N. Shimada, J. -H. Lee"
+    title: "MonoIS3DLoc: Simulation to Reality Learning Based Monocular Instance Segmentation to 3D Objects Localization From Aerial View"
+    venue: "in IEEE Access, vol. 11, pp. 64170-64184, 2023"
+    link: "https://ieeexplore.ieee.org/document/10156844"
+
+  - authors: "H. V. Pham, P. V. Duong, D. T. Tran, J. -H. Lee"
+    title: "A Novel Approach of Voterank-Based Knowledge Graph for Improvement of Multi-Attributes Influence Nodes on Social Networks"
+    venue: "Journal of Artificial Intelligence and Soft Computing Research, vol.13, no. 3, pp. 165-180, 2023"
+    link: "https://reference-global.com/article/10.2478/jaiscr-2023-0013"
+
+  - authors: "M. Lee, J. -H. Lee, M. Lee"
+    title: "RU-FEMOIN—A database of facial expressions: Utilization for robotic mood transition of patient robots"
+    venue: "Expert Systems with Applications, Elsevier, vol. 234, pp.1-13, 2023"
+    link: "https://www.sciencedirect.com/science/article/pii/S0957417423014094"
+
+  - authors: "N. N. C. Phuong, D. T. Tran and J. -H. Lee"
+    title: "Distinct Motion-Preserving Graph Convolutional Network for Two-Person Interaction Recognition"
+    venue: "in IEEE Access, vol. 11, pp. 94691-94704, 2023"
+    link: "https://ieeexplore.ieee.org/document/10232987"
+
+  - authors: "H. Ozaki, D. T. Tran, J. -H. Lee"
+    title: "Effective Human–Object Interaction Recognition for Edge Devices in Intelligent Space"
+    venue: "SICE Journal of Control, Measurement, and System Integration, vol. 17, no. 1, pp. 1-9, 2023"
+    link: "https://www.tandfonline.com/doi/full/10.1080/18824889.2023.2292353"
+
+
+international_conferences:
+  - authors: "H. Ozaki, D. T. Tran and J. -H. Lee"
+    title: "Human State Recognition Method in Intelligent Space"
+    venue: "2023 IEEE/SICE International Symposium on System Integration (SII), Atlanta, GA, USA, 2023, pp. 1-6"
+    link: "https://ieeexplore.ieee.org/document/10039368"
+
+  - authors: "M. Sei, A. Utsumi, H. Yamazoe, J. -H. Lee"
+    title: "Model-based deep gaze estimation using incrementally updated face-shape parameters"
+    venue: "Proceedings of the 2023 Symposium on Eye Tracking Research and Applications (ETRA '23), Tubingen, German, 2023, pp. 1-2"
+    link: "https://dl.acm.org/doi/10.1145/3588015.3590135"
+
+
+domestic_conferences:
+  - authors: "康益赫, D. T. Tran, 李周浩"
+    title: "室内宅配ロボットのためのアーム機構の開発"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "T. T. Nguyen Nguyen, D. T. Tran, J. -H. Lee"
+    title: "Personality-aware Non-verbal Facial Behavior Modelling for Robotic Agent"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "吉田集, D. T. Tran, 李周浩"
+    title: "知能化空間におけるセンサの死角問題解決のための移動ロボットによる遠隔モニタリング"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "松下優希, D. T. Tran, 李周浩"
+    title: "道路脇の除草のための自律除草ロボットの開発"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "藤井康之, D. T. Tran, 李周浩"
+    title: "小型水上自律移動センシングデバイスのための多地点巡回移動センシング戦略"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "櫻井聖, チャン・ディン トゥアン, 李周浩"
+    title: "R+iSpaceにおけるModule Mobileにおける開発"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "N. N. C. Phuong, D. T. Tran, J. -H. Lee"
+    title: "Standard Deviation Labeling A New Partitioning Strategy for Spatial Temporal Graph Convolutional Networks in Human Interaction Recognition"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "B. T. Bui, D. T. Tran, J. -H. Lee"
+    title: "Learning from local features to global scene coordinates for camera pose estimation"
+    venue: "ロボティクス・メカトロニクス講演会2023, 2023年6月"
+    link: ""
+
+  - authors: "尾崎玄拓, 峯崎翔琉, チャン ディン トゥアン, 李周浩"
+    title: "ユーザの動作情報に基づく空間の利活用分析手法"
+    venue: "第41回日本ロボット学会学術講演会, 2023年9月"
+    link: ""
+
+  - authors: "藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "効率的な多地点巡回移動センシングに向けた小型水上自律移動ロボットのための変形移動機構開発"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月. (優秀講演賞)"
+    link: ""
+
+  - authors: "松下優希, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "道路脇の雑草のための自律除草ロボットの開発(第2報)"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月"
+    link: ""
+
+  - authors: "矢野優貴, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "パーソナルモビリティの自律走行時における情報提示を用いた歩行者とシステムのインタラクション手法"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月"
+    link: ""
+    
+  - authors: "阪上竜雅, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "再構成可能な知能化空間における複数台のMobile Moduleの経路探索手法"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月. (優秀講演賞)"
+    link: ""
+
+  - authors: "吉田集, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "空間知能化の機能をユーザが柔軟に定義できる「空間コーディング」の開発"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月"
+    link: ""
+
+  - authors: "児玉遼太郎, 藤井康之, D. T. Tran, 李周浩"
+    title: "遠隔操作ロボットを利用した現実空間拡張コンテンツ「R-Metaverse」における操作遅延改善に関する考察"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月"
+    link: ""
+
+  - authors: "平向 英知, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "ゲーミフィケーションによる人々の移動誘導システム手法"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月"
+    link: ""
+
+  - authors: "康益赫, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "屋内配送ロボットのための物体検出と荷物受け取り機能"
+    venue: "第24回計測自動制御学会システムインテグレーション部門講演会, 2023年12月"
+    link: ""

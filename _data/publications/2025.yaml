@@ -1,0 +1,184 @@
+journals:
+  - authors: "T. G. Dao, D. T. Tran, D. M. Nguyen, J. -H. Lee and A. Q. Nguyen"
+    title: "gTRAVEL+: Enhancing Ground Segmentation for 3D Point Cloud With Temporal Noise Removal and Adaptive Plane Fitting for Urban and Off-Road Environments"
+    venue: "IEEE Access, vol. 13, pp. 82431-82440, 2025"
+    link: "https://ieeexplore.ieee.org/abstract/document/10990224"
+
+  - authors: "T. T. Nguyen Nguyen, Q. T. Dam, D. T. Tran and J. -H. Lee"
+    title: "When Less is More: A Sparse Facial Motion Structure for Listening Motion Learning"
+    venue: "IEEE Transactions on Computational Social Systems, vol. 12, no. 6, pp. 4308-4324, 2025"
+    link: "https://ieeexplore.ieee.org/document/11037665"
+
+  - authors: "L. A. D. Phan, D. Q. Phan, T. T. Bui, P. H. Le, D. T. Tran. and J. -H Lee"
+    title: "Approaching Collaborative Manipulation by Pushing-Grasping Fusion"
+    venue: "IEEE Access, vol. 13, pp. 97693-97707, 2025"
+    link: "https://ieeexplore.ieee.org/document/11016017"
+
+  - authors: "Q. Sui, Y. Hosoda and J. -H. Lee"
+    title: "Swift-YOLO: A Lightweight Architecture for Small Target Detection in Drone Optical Sensors"
+    venue: "IEEE Sensors Journal, vol. 26, no. 3, pp. 4212-4224, 2026"
+    link: "https://ieeexplore.ieee.org/document/11235500"
+
+  - authors: "T. T. Nguyen Nguyen, Q. T. Dam, D. T. Tran and J. -H. Lee"
+    title: "A Survey on Generative Non-verbal Facial Behavior for Highly Realistic Embodied Agents"
+    venue: "Intelligent Service Robotics Journal, (to be accepted)"
+    link: ""
+
+  - authors: "清水郁博, 細田侑也, 李周浩"
+    title: "天井移動ロボットの移動機構制約を考慮したマルチエージェント経路計画アルゴリズム"
+    venue: "日本ロボット学会誌, (採択済み)"
+    link: ""
+
+
+international_conferences:
+  - authors: "A. Al Farouq, D. T. Tran and J. -H. Lee"
+    title: "SafePCA: Enhancing Autonomous Robot Navigation in Dynamic Crowds Using Proximal Policy Optimization and Cellular Automata"
+    venue: "2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 10765-10771"
+    link: "https://ieeexplore.ieee.org/document/11127802"
+
+  - authors: "S. Yoshida, K. K. Gupta, Y. Fujii, D. T. Tran and J. -H. Lee"
+    title: "iSpace Coding: A System for User-Defined Flexible Spatial Functions in Intelligent Spaces"
+    venue: "2025 22nd International Conference on Ubiquitous Robots (UR), College Station, TX, USA, 2025, pp. 498-505"
+    link: "https://ieeexplore.ieee.org/document/11078030"
+
+  - authors: "Y. Matsushita, K. K. Gupta, Y. Fujii, D. T. Tran and J. -H. Lee"
+    title: "Development of an Autonomous Weeding Robot for Roadside Weeds*"
+    venue: "2025 22nd International Conference on Ubiquitous Robots (UR), College Station, TX, USA, 2025, pp. 444-450"
+    link: "https://ieeexplore.ieee.org/document/11078083"
+
+  - authors: "B. T. Bui, H. H. Bui, Y. Fujii, D. T. Tran and J. -H. Lee"
+    title: "Improved 3D Point-Line Mapping Regression for Camera Relocalization"
+    venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, 2025, pp. 12892-12899"
+    link: "https://ieeexplore.ieee.org/document/11246229"
+
+  - authors: "Q. T. Dam, T. T. Nguyen Nguyen, Y. Endo, D. T. Tran and J. -H. Lee"
+    title: "PainDiffusion: Learning to Express Pain"
+    venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, 2025, pp. 7253-7260. (Best Paper Award)"
+    link: "https://ieeexplore.ieee.org/document/11247588"
+
+
+domestic_conferences:
+  - authors: "朴峻佑, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "ロボティクスモザイクアートシステムを用いた参加型アートの実現"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "陳家帥, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "知能化空間における携帯端末を用いたインタラクションシステム"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "河合海翔, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "知能化空間における移動物体の検出及び移動ログの取得"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "峯崎翔琉, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "知能化空間におけるROS2環境での分散処理を活用した人物追跡手法の改善"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "鈴木優介, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "走行場所に応じて走行機構を切り替える屋内移動ロボット (第 2 報)」電動シリンダーを用いた平地移動機構の比較検討"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+    
+  - authors: "清水郁博, 櫻井聖, 藤井康之, Dinh Tuan TRAN, 李周浩"
+    title: "再構成可能な知能化空間における Mobile Module の移動安定性向上のための移動機構の変更"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "吉田集, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "空間知能化の機能をユーザが柔軟に定義できる「空間コーディング」の開発（第4報）"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "河原壱樹, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "機械学習モデルによる可視画像からの赤外線画像生成手法の考察"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "藤井康之, トゥアン ディン・チャン, 藤井康之"
+    title: "介護動作習得のための人型介護動作計測装置の開発"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "松下優希, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "道路脇の除草のための自律除草ロボットの開発（第4報）セグメンテーションを用いた道路認識に基づく自律制御"
+    venue: "ロボティクス・メカトロニクス講演会2025, 2025年6月"
+    link: ""
+
+  - authors: "劉沐恩, 細田侑也, 李周浩"
+    title: "知能化空間内のロボットによる家具の再配置"
+    venue: "第43回日本ロボット学会学術講演会, 2025年9月"
+    link: ""
+
+  - authors: "清水郁博, 細田侑也, 李周浩"
+    title: "ロボットの方向転換遅延を考慮したマルチエージェント経路計画アルゴリズム"
+    venue: "第43回日本ロボット学会学術講演会, 2025年9月"
+    link: ""
+
+  - authors: "A. Rahagiyanto, Y. Hosoda, J. -H. Lee"
+    title: "TriSyNMF: Efficient Feature Extraction from Low-Density sEMG for Gesture Classification"
+    venue: "第43回日本ロボット学会学術講演会, 2025年9月"
+    link: ""
+
+  - authors: "遠藤優貴, T. T. Nguyen Nguyen, 細田侑也, 李周浩"
+    title: "介護訓練ロボットにおけるVR空間を用いたフィードバックシステムの提案"
+    venue: "第30回日本バーチャルリアリティ学会大会, 2025年9月"
+    link: ""
+
+  - authors: "錦織勇飛, B. H. Hoang, 細田侑也, 李周浩"
+    title: "遠隔操作ロボットを利用した現実空間拡張コンテンツ「R-Metaverse」- 第4報 ー音声システムがソーシャルプレゼンスに与える影響の調査ー"
+    venue: "第30回日本バーチャルリアリティ学会大会, 2025年9月"
+    link: ""
+
+  - authors: "細田侑也, 河原壱樹, 李周浩"
+    title: "疑似ペアデータ生成による熱赤外線視覚言語モデルの構築"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月. (優秀講演賞)"
+    link: ""
+
+  - authors: "T. T. Nguyen Nguyen, Y. Hosoda, J. -H. Lee"
+    title: "Pose-Free Sparse View 4D Face Capture with Neural Parametric Gaussians"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+
+  - authors: "鈴木優介, 細田侑也, 李周浩"
+    title: "複数移動機構を持つロボットのマルチモーダルな機構決定システムの提案"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+
+  - authors: "峯崎翔琉, 細田侑也, 李周浩"
+    title: "分散エッジRGB-Dセンシングによる知能化空間でのロボット協調制御"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+
+  - authors: "錦織勇飛, 細田侑也, 李周浩"
+    title: "遠隔操作ロボットを利用した現実空間拡張コンテンツ「R-Metaverse」- 第5報 ―相手ロボットの近接知覚を高めるコントローラ振動がソーシャルプレゼンスに及ぼす影響―"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+
+  - authors: "吉田集, 峯崎翔琉, 細田侑也, 李周浩"
+    title: "空間知能化の機能をユーザが柔軟に定義できる「空間コーディング」の開発（第5報）―大規模言語モデルを用いた空間機能に対する条件の複数定義―"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月. (優秀講演賞)"
+    link: ""
+
+  - authors: "遠藤優貴, 細田侑也, 李周浩"
+    title: "介護訓練ロボットにおけるVR空間を用いたフィードバックシステムの改善"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+
+  - authors: "髙井日美暉, 細田侑也, 李周浩"
+    title: "アカペラ楽曲を対象とする歌声評価システムの開発"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+
+  - authors: "藤井愛奈, 細田侑也, 李周浩"
+    title: "天井面移動ロボットMobile Moduleの高速・安定移動に向けた構造提案"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
+    
+  - authors: "松下優希, 細田侑也, 李周浩"
+    title: "道路脇の雑草のための自律除草ロボットの開発（第5報）リソース制約下でも動作可能な軽量かつ堅牢な雑草検出モデルの設計"
+    venue: "第26回計測自動制御学会システムインテグレーション部門講演会, 2025年12月"
+    link: ""
