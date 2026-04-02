@@ -74,46 +74,6 @@
   date: 2025-04-01
 
 # Master students (m)
-- name: Yuki ENDO
-  name_jp: 遠藤　優貴
-  role: m
-  image: /images/team/master/endo.jpg
-  url:
-  badges: [VR/AR, CaTARo]
-  date: 2024-04-01
-
-- name: Yusuke SUZUKI
-  name_jp: 鈴木　優介
-  role: m
-  image: /images/team/master/suzuki.png
-  url:
-  badges: [Robotics, Mobility]
-  date: 2024-04-01
-
-- name: Yuhi NISHIKORI
-  name_jp: 錦織　勇飛
-  role: m
-  image: /images/team/master/nishikori.jpg
-  url:
-  badges: [VR/AR, Metaverse]
-  date: 2024-04-01
-
-- name: Kakeru MINESAKI
-  name_jp: 峯崎　翔琉
-  role: m
-  image: /images/team/master/minesaki.jpg
-  url: https://sites.google.com/view/minesaki-aislab
-  badges: [iSpace, Multi-view MOT]
-  date: 2024-04-01
-
-- name: Hai Minh Hieu BUI
-  name_jp: Hai Minh Hieu Bui
-  role: m
-  image: /images/team/master/hieu.png
-  url:
-  badges: [ML, Generative]
-  date: 2024-04-01
-
 - name: Jie LUO
   name_jp: 罗　杰
   role: m
@@ -227,17 +187,9 @@
   date: 2025-09-01
 
 # Bachelor students (b)
-- name: Sogo ARAKI
-  name_jp: 荒木　颯吾
-  role: b
-  image: /images/team/bachelor/araki.jpg
-  url:
-  badges: [Robotics]
-  date: 2022-04-01
-
 - name: Izuru IPPITSU
   name_jp: 一筆　一留
-  role: b
+  role: m
   image: /images/team/bachelor/ippitsu.jpg
   url:
   badges: []
@@ -245,75 +197,59 @@
 
 - name: Takashi OKADA
   name_jp: 岡田　隆志
-  role: b
+  role: m
   image: /images/team/bachelor/okada.jpg
   url:
   badges: [Robotics, Field]
-  date: 2022-04-01
-
-- name: Yoichi KATO
-  name_jp: 加藤　耀壱
-  role: b
-  image: /images/team/bachelor/katou.jpg
-  url:
-  badges: [CaTARo]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Hibiki TAKAI
   name_jp: 高井　日美暉
-  role: b
+  role: m
   image: /images/team/bachelor/takai.jpg
   url:
   badges: [Speech]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Haruki TSUKA
   name_jp: 塚　春輝
-  role: b
+  role: m
   image: /images/team/bachelor/tsuka.jpg
   url:
   badges: [iSpace]
-  date: 2022-04-01
-
-- name: Koji HIROSAWA
-  name_jp: 廣澤　考冶
-  role: b
-  image: /images/team/bachelor/hirosawa.jpg
-  url:
-  badges: [MAPF]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Aina FUJII
   name_jp: 藤井　愛奈
-  role: b
+  role: m
   image: /images/team/bachelor/fujii.jpg
   url:
   badges: [Robotics, R+iSpace]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Asahi FUMIMOTO
   name_jp: 文元　朝陽
-  role: b
+  role: m
   image: /images/team/bachelor/fumimoto.jpg
   url:
   badges: [CV, SLAM]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Ai MITSUSHIMA
   name_jp: 光島　愛
-  role: b
+  role: m
   image: /images/team/bachelor/mitsushima.jpg
   url:
   badges: [ML, Robotics]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Katsuyuki MORITA
   name_jp: 森田　勝之
-  role: b
+  role: m
   image: /images/team/bachelor/morita.png
   url:
   badges: [iSpace]
-  date: 2022-04-01
+  date: 2026-04-01
 
 - name: Syusuke HOSOKAWA
   name_jp: 細川　隼輔
@@ -331,4 +267,98 @@
   badges: [Robotics]
   date: 2022-09-01
 
+- name: Rikuto SHIGERU
+  name_jp: 茂　陸人
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
 
+- name: Kouhei ZENNYU
+  name_jp: 善入　晃平
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Syouichirou DESASAKI
+  name_jp: 出崎　将一朗
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Natsuki NABETA
+  name_jp: 鍋田　夏輝
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Kota HIGUMA
+  name_jp: 日隈　滉太
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Syuuta YAMAMOTO
+  name_jp: 山本　柊太
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Nanami SUGIYAMA
+  name_jp: 杉山　七海
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Taiga TANAKA
+  name_jp: 田中　大雅
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Kanon NAKAI
+  name_jp: 中井　伽音
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Kento HANAI
+  name_jp: 花井　健人
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: Yurina MISAKI
+  name_jp: 三崎　裕里奈
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
+
+- name: HOU TIEHUI
+  name_jp: 侯　鉄輝
+  role: b
+  image: /images/team/dummy.png
+  url:
+  badges: []
+  date: 2023-04-01
