@@ -23,9 +23,3 @@
   group: contents
   link: contents/rooms
   image: /images/assignment/aislab.png
-
-- title: FAQ
-  title_jp: FAQ
-  group: contents
-  link: contents/faq
-  image: /images/assignment/question.png
