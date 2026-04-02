@@ -1,0 +1,194 @@
+journals:
+  - authors: "D. T. Tran, D. T. Phung, D. M. Duong, K. Inoue, J. -H. Lee, A. Q. Nguyen"
+    title: "Privacy-Preserving Face and Hair Swapping in Real-Time With a GAN-Generated Face Image"
+    venue: "IEEE Access, vol. 12, pp. 179265-179280, 2024"
+    link: "https://ieeexplore.ieee.org/document/10577121"
+    
+  - authors: "K. D. Nguyen, D. T. Tran, V. Q. Pham, D. T. Nguyen, K. Inoue, J. -H. Lee, A. Q. Nguyen"
+    title: "Learning Visual-Inertial Odometry With Robocentric Iterated Extended Kalman Filter"
+    venue: "IEEE Access, vol. 12, pp. 109943-109956, 2024"
+    link: "https://ieeexplore.ieee.org/document/10630497"
+
+  - authors: "B. T. Bui, H. H. Bui, D. T. Tran, J. -H. Lee"
+    title: "D2S: Representing Sparse Descriptors and 3D Coordinates for Camera Relocalization"
+    venue: "IEEE Robotics and Automation Letters, vol. 9, no. 12, pp. 11449-11456, 2024"
+    link: "https://ieeexplore.ieee.org/document/10737398"
+
+
+international_conferences:
+  - authors: "A. A. Farouq, D. T. Tran, J. -H. Lee"
+    title: "Enhancing Robot Navigation Through Advanced DRL and Cellular Automata Integration"
+    venue: "in Proceedings of International Conference on Electronics, Information, and Communication (ICEIC), Osaka, Japan, 2025, pp. 1-4. (Best Paper Award)"
+    link: "https://ieeexplore.ieee.org/document/10879770"
+
+  - authors: "T. T. Nguyen Nguyen, Y. Fujii, D. T. Tran, J. -H. Lee"
+    title: "Interactive Holographic Visualization for 3D Facial Avatar"
+    venue: "in Proceedings of International Conference on Electronics, Information, and Communication (ICEIC), Osaka, Japan, 2025, pp. 1-4"
+    link: ""
+
+  - authors: "B. B. Thuan, D. T. Tran, J. -H. Lee"
+    title: "Fast and Lightweight Scene Regressor for Camera Relocalization"
+    venue: "in Proceedings of IEEE/SICE International Symposium on System Integration (SII), Ha Long, Vietnam, 2024, pp. 66-72"
+    link: "https://ieeexplore.ieee.org/document/10417635"
+
+  - authors: "T. T. Nguyen Nguyen, D. T. Tran, J. -H. Lee"
+    title: "Latency Improvement Strategy for Temporally Stable Sequential 3DMM-Based Face Expression Tracking"
+    venue: "in Proceedings of IEEE/SICE International Symposium on System Integration (SII), Ha Long, Vietnam, 2024, pp. 327-332"
+    link: "https://ieeexplore.ieee.org/document/10417546"
+
+  - authors: "Y. Fujii, D. T. Tran, J. -H. Lee"
+    title: "Multi-Point Traveling Sensing Strategy for a Symmetrical Shape Autonomous on Water Surface Robot"
+    venue: "in Proceedings of IEEE/SICE International Symposium on System Integration (SII), Ha Long, Vietnam, 2024, pp. 1235-1240"
+    link: "http://ieeexplore.ieee.org/document/10417541"
+
+  - authors: "H. Ozaki, D. T. Tran and J. -H. Lee"
+    title: "Space Utilization Analysis Using Human–Object Interaction Recognition"
+    venue: "2024 IEEE/SICE International Symposium on System Integration (SII), Ha Long, Vietnam, 2024, pp. 941-946"
+    link: "https://ieeexplore.ieee.org/document/10417211"
+
+  - authors: "N. N. C. Phuong, D. T. Tran and J. -H. Lee"
+    title: "Integrating Visual Features and Spatial Relations for Human Interaction Understanding"
+    venue: "2024 9th International Conference on Control and Robotics Engineering (ICCRE), Osaka, Japan, 2024, pp. 365-370"
+    link: "https://ieeexplore.ieee.org/document/10589823"
+
+  - authors: "Q. T. Dam, T. T. Nguyen Nguyen, D. T. Tran and J. -H. Lee"
+    title: "Finite Scalar Quantization as Facial Tokenizer for Dyadic Reaction Generation"
+    venue: "2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG), Istanbul, Turkiye, 2024, pp. 1-5. (FIRST PLACE WINNER CERTIFICATE)"
+    link: "https://ieeexplore.ieee.org/document/10581929"
+
+  - authors: "H. H. Bui, B. T. Bui, D. T. Tran and J. -H. Lee"
+    title: "Leveraging Neural Radiance Field in Descriptor Synthesis for Keypoints Scene Coordinate Regression"
+    venue: "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, 2024, pp. 5581-5588"
+    link: "https://ieeexplore.ieee.org/document/10801953"
+
+  - authors: "B. T. Bui, H. H. Bui, D. T. Tran and J. -H. Lee"
+    title: "Representing 3D sparse map points and lines for camera relocalization"
+    venue: "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, 2024, pp. 8400-8407"
+    link: "https://ieeexplore.ieee.org/document/10802402"
+
+
+domestic_conferences:
+  - authors: "H. H. Bui, B. T. Bui, D. T. Tran, J. -H. Lee, Y. Fujii"
+    title: "Leveraging Neural Radiance Field for Spare Keypoints Scene Coordinate Regressor"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "Q. T. Dam, T. T. Nguyen Nguyen, Y. Fujii, D. T. Tran, J. -H. Lee"
+    title: "Facial Reaction Generation with Finite Scalar Quantization and Cross-modality Transformer"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "遠藤優貴, 藤井康之, チャン・ディン トゥアン, 李周浩"
+    title: "VR 空間を用いた介護訓練ロボットの訓練能力向上"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "藤井康之, チャン・ディン トゥアン, 李周浩"
+    title: "実環境における変形移動機構を備えた小型水上自律移動ロボットの巡回移動戦略評価"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "鈴木優介, 藤井康之, チャン・ディン トゥアン, 李周浩"
+    title: "階段昇降クローラ型ロボットのための走行可能領域探索手法"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "峯崎翔琉, 藤井康之, チャン・ディン トゥアン, 李周浩"
+    title: "知能化空間内のユーザ要求に応じたエージェントデバイスの制御"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "錦織勇飛, 藤井康之, チャン・ディン トゥアン, 李周浩"
+    title: "遠隔操作ロボットを利用した現実空間拡張コンテンツ「R-Metaverse」- 第2報」R-Metaverse におけるモバイルユーザとの交流"
+    venue: "ロボティクス・メカトロニクス講演会2024, 2024年5月"
+    link: ""
+
+  - authors: "B. T. Bui, H. H. Bui, Y. Fujii, D. T. Tran, J. -H. Lee"
+    title: "Sparse mapping learning-based for visual relocalization"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "A. A. Farouq, D. T. Tran, J. -H. Lee"
+    title: "Elevating Autonomous Navigation: Combining Cellular Automata with Deep Q-Network Techniques"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "グエン チートウングエン, チャン ディン トゥアン, 藤井康之, 李周浩"
+    title: "Hologram-based Facial Avatar For Patient Simulator Robot"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "Q. V. Tran, Y. Fujii, D. T. Tran, J. -H. Lee"
+    title: "Real-time person re-identification in multicamera environment"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "峯崎翔琉, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "分散配置RGB-Dカメラデバイスの協調による状況理解とロボットへの指示生成"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "櫻井聖, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "再構成可能な知能化空間におけるMobile Moduleの移動機構開発"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "鈴木優介, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "走行場所に応じて走行機構を切り替える屋内移動ロボット"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "吉田集, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "空間知能化の機能をユーザが柔軟に定義できる「空間コーディング」の開発（第2報）"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "松下優希, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "道路脇の雑草のための自律除草ロボットの開発(第3報)"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "効率的な複数地点巡回移動を目的とした水上ロボットのための変形移動機構評価"
+    venue: "第42回日本ロボット学会学術講演会, 2024年9月"
+    link: ""
+
+  - authors: "遠藤優貴, 藤井康之, T. D. Tuan, 李周浩"
+    title: "VR空間を用いた介護訓練ロボットのユーザビリティ改善"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""
+
+  - authors: "錦織勇飛, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "遠隔操作ロボットを利用した現実空間拡張コンテンツ「R-Metaverse」- 第3報 ―3DCGアバタの違いによるソーシャルプレゼンスの変化―"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月. (優秀講演賞)"
+    link: ""
+
+  - authors: "古川拳士郎, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "柔軟リンクとアクチュエータで構成されるロボットの変形による移動性能評価"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""
+
+  - authors: "藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "シミュレーションを用いた変形移動機構を有する水上ロボットの移動性能評価"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""
+
+  - authors: "清水郁博, 藤井康之. T. D. Tuan, 李周浩"
+    title: "再構成可能な知能化空間における複数台のMobile Moduleに対する経路計画問題の計算量の改善のための手法の提案"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""
+
+  - authors: "吉田集, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "空間知能化の機能をユーザが柔軟に定義できる「空間コーディング」の開発（第3報）"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""
+
+  - authors: "河原壱樹, 藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "RGB2THERMAL：CycleGANを用いた疑似的な赤外線画像の生成"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""
+
+  - authors: "峯崎翔琉, 藤井康之, T. D. Tuan, 李周浩"
+    title: "分散知能ネットワークデバイスの蓄積データを用いた空間とロボットの協調制御"
+    venue: "第25回計測自動制御学会システムインテグレーション部門講演会, 2024年12月"
+    link: ""

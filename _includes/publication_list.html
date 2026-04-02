@@ -1,0 +1,76 @@
+{% comment %} 
+一旦 sort フィルタで「配列」に変換します。
+Jekyllの仕様で、これで [["2025", {...}], ["2024", {...}]] という構造の配列になります。
+{% endcomment %}
+{% assign pubs_array = site.data.publications | sort %}
+
+{% comment %} 
+for文に reversed をつけることで、年度の降順でループを回します。
+これなら pub_year[0] に年度が確実に残ります。
+{% endcomment %}
+{% for pub_year in pubs_array reversed %}
+{% assign year = pub_year[0] %}
+{% assign data = pub_year[1] %}
+
+{% if site.lang == 'en' %}
+## {{ year }}
+{% else %}
+## {{ year }}年度
+{% endif %}
+
+{% if data.journals %}
+{% if site.lang == 'en' %}
+### Journal Paper
+{% else %}
+### 論文誌
+{% endif %}
+
+<ul>
+  {% for item in data.journals %}
+    <li>
+      {{ item.authors }}, "{{ item.title }}", <i>{{ item.venue }}</i>. 
+      {% if item.link != "" %}<a href="{{ item.link }}" target="_blank">[Link]</a>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if data.international_conferences %}
+{% if site.lang == 'en' %}
+### International Conference
+{% else %}
+### 国際会議
+{% endif %}
+
+<ul>
+  {% for item in data.international_conferences %}
+    <li>
+      {{ item.authors }}, "{{ item.title }}", <i>{{ item.venue }}</i>.
+      {% if item.link != "" %}<a href="{{ item.link }}" target="_blank">[Link]</a>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if data.domestic_conferences %}
+{% if site.lang == 'en' %}
+### Domestic Conference
+{% else %}
+### 国内会議
+{% endif %}
+
+<ul>
+  {% for item in data.domestic_conferences %}
+    <li>
+      {% if site.lang == 'en' %}
+      {{ item.authors }}, "{{ item.title }}", {{ item.venue }}.
+      {% else %}
+      {{ item.authors }}, 「{{ item.title }}」, {{ item.venue }}.
+      {% endif %}
+      {% if item.link != "" %}<a href="{{ item.link }}" target="_blank">[Link]</a>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% endfor %}

@@ -1,0 +1,154 @@
+journals:
+  - authors: "M. Sei, A. Utsumi, H. Yamazoe, J. -H. Lee"
+    title: "Personalized Face-Pose Estimation Network Using Incrementally Updated Face Shape Parameters"
+    venue: "Applied Intelligence, vol. 52, no. 10, pp. 11506-11516, 2022"
+    link: "https://link.springer.com/article/10.1007/s10489-021-02888-0"
+    
+  - authors: "A. Kojima, T. D. Tran, J. -H. Lee"
+    title: "Investigation of the mounting position of a wearable robot arm"
+    venue: "Robotics, vol. 11, no. 1, 2022"
+    link: "https://www.mdpi.com/2218-6581/11/1/19"
+
+  - authors: "M. Lee, J. -H. Lee, D.-H. Kim"
+    title: "Gender Recognition using Optimal Gait Feature based on Recursive Feature Elimination in Normal Walking"
+    venue: "Expert Systems With Applications, vol. 189, no. 116040, pp.1-15, 2022"
+    link: "https://www.sciencedirect.com/science/article/pii/S0957417421013853"
+
+  - authors: "Y. Fujii, D. T. Tran, J. -H. Lee"
+    title: "An efficient in situ monitoring strategy for an active aquatic surface omni-directional sensing device"
+    venue: "Advanced Robotic, vol. 36, no. 14, pp. 700-714, 2022"
+    link: "https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2078670"
+
+  - authors: "B. T. Bui, T. D. Tran, J. -H. Lee"
+    title: "FeatLoc: Absolute pose regressor for indoor 2D sparse features with simplistic view synthesizing"
+    venue: "ISPRS Journal of Photogrammetry and Remote Sensing, vol. 189, pp. 50-62, 2022"
+    link: "https://www.sciencedirect.com/science/article/pii/S0924271622001241"
+
+  - authors: "D. T. Tran, N. Shimada and J. -H. Lee"
+    title: "Triple-Sigmoid Activation Function for Deep Open-Set Recognition"
+    venue: "in IEEE Access, vol. 10, pp. 77668-77678, 2022"
+    link: "https://ieeexplore.ieee.org/document/9833503/"
+
+  - authors: "H. Yamazoe, J. Chun, Y. Kim, K. Miki, T. Imazaike, Y. Matsushita, J. -H. Lee"
+    title: "Analysis of impressions on robot by changing its motion and trajectory parameters for designing parameterized behaviors of home service robots"
+    venue: "Intelligent Service Robotics, vol. 16, no. 1, pp. 3-8, 2022"
+    link: "https://link.springer.com/article/10.1007/s11370-022-00447-1"
+
+  - authors: "R. Kakiuchi, D. T. Tran, J. -H. Lee"
+    title: "Inspection of the Most Suitable Approach and Information Projection Method for Interactions in the Night Flight of a Projector-Mounted Drone"
+    venue: "Journal of Robotics and Mechatronics, vol. 34, no. 6, pp. 1441-1450, 2022"
+    link: "https://www.jstage.jst.go.jp/article/jrobomech/34/6/34_1441/_article/-char/ja/"
+
+
+international_conferences:
+  - authors: "Y. Fukuda, D. T. Tran, J. -H. Lee"
+    title: "The Gripping Force Enhancement Haptic Device for Hands with Wires and a Dial"
+    venue: "27th International Symposium on Artificial Life and Robotics (AROB 27th 2022), 2022. (online)"
+    link: ""
+
+  - authors: "J. Yang, D. T. Tran, J. -H. Lee"
+    title: "Mechanism of a Delivery Crawler-Type Mobile Robot Capable of Climbing Stairs"
+    venue: "27th International Symposium on Artificial Life and Robotics (AROB 27th 2022), 2022. (online)"
+    link: ""
+
+  - authors: "K. Takahashi, D. T. Tran, J. -H. Lee"
+    title: "Differences in Impressions of Projected Content and Projection Method in Dual-Ubiquitous Display"
+    venue: "27th International Symposium on Artificial Life and Robotics (AROB 27th 2022), 2022. (online)"
+    link: ""
+
+  - authors: "R. Kakiuchi, D. T. Tran, J. -H. Lee"
+    title: "Evaluation of behavior detection and investigation of sound noise of a drone with an infrared camera at night"
+    venue: "27th International Symposium on Artificial Life and Robotics (AROB 27th 2022), 2022. (online)"
+    link: ""
+
+  - authors: "T. Hatakeyama, D. T. Tran, J. -H. Lee"
+    title: "Improvement of the Method for Detecting Makeup Mistake Areas and Proposal of a Feedback Method for the Visually Impaired People"
+    venue: "27th International Symposium on Artificial Life and Robotics (AROB 27th 2022), 2022. (online)"
+    link: ""
+
+  - authors: "A. Kojima, D. T. Tran and J. -H. Lee"
+    title: "Considerations of Mounting Method for Wearable Robot Arm"
+    venue: "2022 19th International Conference on Ubiquitous Robots (UR), Jeju, Korea, Republic of, 2022, pp. 258-262"
+    link: "https://ieeexplore.ieee.org/abstract/document/9826261"
+
+  - authors: "J. -H. Lee, D.-H. Kim, M. Lee"
+    title: "Development of Robotic Mood Transition for Human-Robot Interaction"
+    venue: "The 8th International Conference on Next Generation Computing 2022（ICNGC2022), 2022, pp. 195-197. (Best Paper AWARD)"
+    link: ""
+
+  - authors: "Y. Fujii, D. T. Tran and J. -H. Lee"
+    title: "Evaluation of position-keeping strategies for symmetrically-shaped autonomous water-surface robots under disturbances"
+    venue: "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Kyoto, Japan, 2022, pp. 7137-7144"
+    link: "https://ieeexplore.ieee.org/document/9982124"
+
+  - authors: "A. M. Nguyen, D. T. Nguyen, V. Q. Pham, H. T. Nguyen, D. T. Tran, J. -H. Lee"
+    title: "Real-time ROS Implementation of Conventional Feature-based and Deep-learning-based Monocular Visual Odometry for UAV"
+    venue: "2022 11th International Conference on Control, Automation and Information Sciences (ICCAIS), Hanoi, Vietnam, 2022, pp. 436-441"
+    link: "https://ieeexplore.ieee.org/document/9990287"
+
+
+domestic_conferences:
+  - authors: "阪上竜雅, チャン ディン トゥアン, 李周浩"
+    title: "再構成可能な知能化空間におけるMoMoの遠隔操作"
+    venue: "ロボティクス・メカトロニクス講演会2022, 2022年6月"
+    link: ""
+
+  - authors: "尾崎玄拓, チャン ディン トゥアン, 李周浩"
+    title: "人の骨格情報と物体情報を用いたインタラクション認識手法の提案"
+    venue: "ロボティクス・メカトロニクス講演会2022, 2022年6月"
+    link: ""
+
+  - authors: "矢野優貴, チャン ディン トゥアン, 李周浩"
+    title: "パーソナルモビリティにおける自律とマニュアルのハイブリッド走行手法"
+    venue: "ロボティクス・メカトロニクス講演会2022, 2022年6月"
+    link: ""
+
+  - authors: "施真琴, 内海章, 山添大丈, 李周浩"
+    title: "隠れパラメータの誘導と深層学習の性能向上のための事前定義計算モジュールの検討"
+    venue: "第25回画像の認識・理解シンポジウム, 2022年7月"
+    link: ""
+
+  - authors: "尾崎玄拓, チャン ディン トゥアン, 李周浩"
+    title: "知能化空間におけるユーザのインタラクション認識手法の提案 第2報"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "垣内亮佑, チャン ディン トゥアン, 李周浩"
+    title: "赤外線カメラ搭載ドローンによる夜間の行動検出と接近手法の提案"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "児玉遼太郎, チャン ディン トゥアン, 李周浩"
+    title: "テレイグジスタンスロボットを用いたRMetaverseの提案"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "小島景行, チャン ディン トゥアン, 李周浩"
+    title: "軽量化と実用性を考慮した装着型ロボットアームの提案 第7報"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "小型水上自律移動センシングデバイスのための外乱を考慮した定点維持制御戦略評価"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "B. T. Bui, D. T. Tran, J. -H. Lee"
+    title: "Learning to estimate 6DoF camera pose from 2D indoor sparse feature"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "T. T. Nguyen Nguyen, D. T. Tran, J. -H. Lee"
+    title: "Affective interaction for Elderly Care Training Patient Simulator Robot"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "謝润康, チャン ディン トゥアン, 李周浩"
+    title: "ペアアクチュエータユニットの組み合わせによる影生成ロボットにおけるDP を用いた影生成手法提案"
+    venue: "第40回日本ロボット学会学術講演会, 2022年9月"
+    link: ""
+
+  - authors: "平向英知, チャン ディン トゥアン, 李周浩"
+    title: "人の移動誘導を目的とした画像類似度を用いたゲーミフィケーション"
+    venue: "第23回計測自動制御学会システムインテグレーション部門講演会, 2022年12月."
+    link: ""

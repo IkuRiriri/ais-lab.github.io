@@ -1,0 +1,99 @@
+journals:
+  - authors: "M. Lee, D. T. Tran, J. -H. Lee"
+    title: "3D Facial Pain Expression for a Care Training Assistant Robot in an Elderly Care Education Environment"
+    venue: "Frontiers Robotics and AI, vol. 8, no. 42, pp. 1-15, 2021.04"
+    link: "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.632015/full"
+    
+  - authors: "M. Lee, J. -H. Lee"
+    title: "A robust fusion algorithm of LBP and IMF with recursive feature elimination based ECG processing for QRS and arrhythmia detection"
+    venue: "Applied Intelligence, vol. 52, pp.939-953, 2021"
+    link: "https://link.springer.com/article/10.1007/s10489-021-02368-5"
+
+  - authors: "Y. Matsushita, D. T. Tran, H. Yamazoe, J. -H. Lee"
+    title: "Recent use of deep learning techniques in clinical applications based on gait: a survey"
+    venue: "Journal of Computational Design and Engineering, vol.8, no.6, pp.1499-1532, 2021"
+    link: "https://academic.oup.com/jcde/article/8/6/1499/6414433"
+
+
+international_conferences:
+  - authors: "M. Lee, D. T. Tran, H. Yamazoe and J. -H. Lee"
+    title: "Care Training Assistant Robot and Visual-based Feedback for Elderly Care Education Environment"
+    venue: "2021 IEEE/SICE International Symposium on System Integration (SII), Iwaki, Fukushima, Japan, 2021, pp. 572-577"
+    link: "https://ieeexplore.ieee.org/document/9382630"
+
+  - authors: "M. Lee, D. T. Tran and J. -H. Lee"
+    title: "Pain Expression-based Visual Feedback Method for Care Training Assistant Robot with Musculoskeletal Symptoms"
+    venue: "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Prague, Czech Republic, 2021, pp. 862-869"
+    link: "https://ieeexplore.ieee.org/document/9636671"
+
+
+domestic_conferences:
+  - authors: "藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "長期水環境観測を目的とした小型水上自律移動センシングデバイスのための制御戦略"
+    venue: "ロボティクス・メカトロニクス講演会2021, 2021年6月"
+    link: ""
+
+  - authors: "垣内亮佑, チャン ディン トゥアン, 李周浩"
+    title: "プロジェクタ搭載ドローンの夜間飛行におけるインタラクションのための最適な接近方法の検証"
+    venue: "ロボティクス・メカトロニクス講演会2021, 2021年6月"
+    link: ""
+
+  - authors: "高橋邦光, 楊 俊彦, チャン ディン トゥアン, 李周浩"
+    title: "複層建物におけるクローラ型宅配サービスロボットの自立移動"
+    venue: "ロボティクス・メカトロニクス講演会2021, 2021年6月"
+    link: ""
+
+  - authors: "楊俊彦, 高橋 邦光, チャン ディン トゥアン, 李周浩"
+    title: "階段昇降が可能なコンパクトクローラ型移動ロボットの機構"
+    venue: "ロボティクス・メカトロニクス講演会2021, 2021年6月"
+    link: ""
+
+  - authors: "岸本尚将, 李周浩, チャン ディン トゥアン"
+    title: "6足歩行ロボットにおける歩行動作が与える印象に関する研究"
+    venue: "ロボティクス・メカトロニクス講演会2021, 2021年6月"
+    link: ""
+
+  - authors: "A. Li, チャン ディン トゥアン, 李周浩"
+    title: "人間の拡張 ２D 骨格関節点座標に基づくカメラ視点変化にロバストな行動認識"
+    venue: "ロボティクス・メカトロニクス講演会2021, 2021年6月"
+    link: ""
+
+  - authors: "藤井康之, チャン ディン トゥアン, 李周浩"
+    title: "シミュレーションと実環境実験による小型水上自律移動センシングデバイスの定点維持制御戦略評価"
+    venue: "第39回日本ロボット学会学術講演会, 2021年9月"
+    link: ""
+
+  - authors: "楊俊彦, T. D. Tran, 李周浩"
+    title: "階段昇降が可能なクローラ型移動ロボットの機構"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
+
+  - authors: "垣内亮佑, T. D. Tran, 李周浩"
+    title: "赤外線カメラ搭載ドローンによる夜間における行動検出の評価"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
+
+  - authors: "福田有記, T. D. Tran, 李周浩"
+    title: "ワイヤを用いた低自由度外骨格型把持支援装置の提案"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
+
+  - authors: "畠山智之, T. D. Tran, 李周浩"
+    title: "視覚障がい者のための化粧チェックシステム開発に向けた化粧ミス領域検出手法の提案"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
+
+  - authors: "尾崎玄拓, T. D. Tran, J. -H. Lee"
+    title: "知能化空間におけるユーザのインタラクションに基づく環境地図の生成および最適な情報提示手法の考案"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
+    
+  - authors: "久郷莉一, T. D. Tran, 李周浩"
+    title: "半自律型移動ロボットを用いた空間の自動３次元モデリング"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
+
+  - authors: "高橋邦光, T. D. Tran, 李周浩"
+    title: "Dual-Ubiquitous Display におけるインタラクション性を取り入れた情報投影手法の検討"
+    venue: "第22回計測自動制御学会システムインテグレーション部門講演会, 2021年12月"
+    link: ""
