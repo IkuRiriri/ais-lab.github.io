@@ -16,7 +16,7 @@ AIS Lab. consists of four rooms, each specializing in different aspects of resea
 {% when 'jp' %}
 # 研究施設
 
-AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成されています。それぞれの部屋には、部屋に適した設備が整っており、その部屋で快適に研究ができます。
+AIS Lab. は、研究の様々な側面に特化した3つの部屋で構成されています。それぞれの部屋には、部屋に適した設備が整っており、その部屋で快適に研究ができます。
 {% endcase %}
 
 <div class="rooms-tabs" role="tablist" aria-label="{% if site.lang == 'jp' %}研究室の部屋{% else %}Research Rooms{% endif %}">

@@ -38,15 +38,15 @@ rooms:
     image: assignment/rooms/workshop.jpg
     link: assignment/contents/rooms/workshop
 
-  - id: ispace-lab
-    title:
-      jp: SP LAB 8
-      en: SP LAB 8
-    description:
-      jp: SP LAB 8では、知能化空間（iSpace）の研究を行っています。
-      en: SP LAB 8 is dedicated to research on intelligent space (iSpace).
-    location:
-      jp: H棟 1階 SP LAB 8
-      en: H Building 1F, SP LAB 8
-    image: assignment/rooms/iSpace_content.JPG
-    link: assignment/contents/rooms/iSpace
+  # - id: ispace-lab
+  #   title:
+  #     jp: SP LAB 8
+  #     en: SP LAB 8
+  #   description:
+  #     jp: SP LAB 8では、知能化空間（iSpace）の研究を行っています。
+  #     en: SP LAB 8 is dedicated to research on intelligent space (iSpace).
+  #   location:
+  #     jp: H棟 1階 SP LAB 8
+  #     en: H Building 1F, SP LAB 8
+  #   image: assignment/rooms/iSpace_content.JPG
+  #   link: assignment/contents/rooms/iSpace
