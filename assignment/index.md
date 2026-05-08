@@ -4,7 +4,17 @@ nav:
   order: 6
   tooltip: tooltips.assignment
 ---
+{% case site.lang %}
+{% when 'jp' %}
+<div style="font-size:1.6em;font-weight:bold;color:red;margin:1.5em 0;text-align:center;">
+これは2025年度版です．2026年度版の公開までしばらくお待ちください．
+</div>
 
+{% when 'en' %}
+<div style="font-size:1.6em;font-weight:bold;color:red;margin:1.5em 0;text-align:center;">
+This is the 2025 edition. Please wait until the 2026 edition is released.
+</div>
+{% endcase %}
 # {% include icon.html icon="fa-solid fa-robot" %} {%t assignment.assignment_title %}
 {% case site.lang %}
 {% when 'jp' %}
