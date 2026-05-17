@@ -1,0 +1,20 @@
+{% assign field = include.field %}
+{% assign title = field.title %}
+{% assign description = field.description %}
+
+{% if site.lang == "jp" %}
+  {% assign title = field.title_jp | default: field.title %}
+  {% assign description = field.description_jp | default: field.description %}
+{% endif %}
+
+{% assign field_url = "/projects/field/" | append: field.id | append: "/" | relative_url %}
+
+<a class="research-field-card" href="{{ field_url }}">
+  <div class="research-field-media" style="background-image: url('{{ field.image | prepend: site.baseurl_root }}')"></div>
+  <div class="research-field-body">
+    <h3>{{ title }}</h3>
+    <span class="research-field-cta">
+      {% if site.lang == "jp" %}テーマを見る →{% else %}View themes →{% endif %}
+    </span>
+  </div>
+</a>

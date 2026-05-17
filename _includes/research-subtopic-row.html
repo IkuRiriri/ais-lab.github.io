@@ -1,0 +1,65 @@
+{% assign topic = include.subtopic %}
+{% assign title = topic.title %}
+{% assign description = topic.description %}
+{% assign media = topic.media | default: topic.image %}
+{% assign media_type = "image" %}
+{% assign media_url = nil %}
+{% if media %}
+  {% assign media_url = media | prepend: site.baseurl_root %}
+  {% assign media_lower = media | downcase %}
+  {% if media_lower contains ".mp4" or media_lower contains ".webm" or media_lower contains ".mov" %}
+    {% assign media_type = "video" %}
+  {% endif %}
+{% endif %}
+
+{% if site.lang == "jp" %}
+  {% assign title = topic.title_jp | default: topic.title %}
+  {% assign description = topic.description_jp | default: topic.description %}
+{% endif %}
+
+{% assign align = topic.align %}
+{% if align == nil %}
+  {% assign index = include.index | plus: 0 %}
+  {% assign mod = index | modulo: 2 %}
+  {% if mod == 0 %}
+    {% assign align = "left" %}
+  {% else %}
+    {% assign align = "right" %}
+  {% endif %}
+{% endif %}
+
+<div class="research-subtopic {% if align == 'right' %}is-right{% else %}is-left{% endif %}">
+  <div class="research-subtopic-media">
+    {% if media_url %}
+      {% if media_type == "video" %}
+        <button
+          class="research-lightbox-trigger"
+          type="button"
+          data-lightbox-src="{{ media_url }}"
+          data-lightbox-type="video"
+          aria-label="{% if site.lang == 'jp' %}拡大表示{% else %}Open media{% endif %}"
+        >
+          <video src="{{ media_url }}" autoplay muted loop playsinline></video>
+        </button>
+      {% else %}
+        <button
+          class="research-lightbox-trigger"
+          type="button"
+          data-lightbox-src="{{ media_url }}"
+          data-lightbox-type="image"
+          aria-label="{% if site.lang == 'jp' %}拡大表示{% else %}Open image{% endif %}"
+        >
+          <img src="{{ media_url }}" alt="{{ title | default: 'Research topic' }}">
+        </button>
+      {% endif %}
+    {% else %}
+      <div class="research-subtopic-placeholder"></div>
+    {% endif %}
+  </div>
+  <div class="research-subtopic-body">
+    <h3>{{ title }}</h3>
+    {% if description %}
+      <p>{{ description }}</p>
+    {% endif %}
+  </div>
+</div>

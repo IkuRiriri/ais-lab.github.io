@@ -1,0 +1,29 @@
+- id: intelligent-robotics
+  title: Intelligent Robotics
+  title_jp: 知能ロボット
+  description: At the Intelligent Robotics Group, we develop robotic systems that autonomously navigate real-world environments to assist people by understanding both humans and their surroundings. To achieve advanced motion planning and safe autonomous control, each project integrates robotics with computer vision, including localization, object detection, and environment recognition. We also focus heavily on practical factors necessary for operating in human living spaces and real-world fields, such as lightweight design, low cost, and stability. We aim to develop robotic technologies that can adapt to diverse indoor and outdoor environments to help solve critical social issues.
+  description_jp: 知能ロボットグループでは，実環境で自律的に移動し，人間や周囲環境を理解しながら人を支援するロボットシステムの研究に取り組んでいます．各研究では，自己位置推定，物体検出，環境認識などのComputer Vision技術とロボティクスを組み合わせ，高度な動作計画や安全な自律制御の実現を目指しています．また，軽量化や低コスト化，安定性など，人間が生活する空間や実際の現場で運用するうえで重要となる実用性も重視しています．屋内外を問わず，多様な環境に適応できるロボット技術を確立し社会課題の解決に貢献することを目指します．
+  image: /images/projects/intelligent-robotics.png
+  themes:
+    - autonomous-mobile-robot
+  order: 1
+
+- id: intelligent-space
+  title: Intelligent Space
+  title_jp: 知能化空間
+  description: The Intelligent Space Group views entire rooms and facilities as single, integrated intelligent systems, researching technologies that autonomously deliver user-requested life support services. First, we gather spatial information, including user states and environmental changes, through distributed intelligent devices. Next, utilizing scene graphs and Large Language Models (LLMs), we verbalize events occurring within the space to understand the user's explicit and implicit needs. Finally, we control various robots and devices to deliver the appropriate life support services to the user. Through this research, we aim to create comfortable, secure environments where users can interact naturally and effortlessly, without specialized operations.
+  description_jp: 知能化空間グループでは，部屋や施設全体を一つの知的なシステムとして捉え，ユーザが所望する生活支援サービスを自律的に提供する技術を研究しています．まず，分散知能デバイスを介してユーザの状態や環境の変化などの空間情報を収集します．そして，シーングラフやLLMを活用し，空間内で起きた事象を言語化し，ユーザの要望を理解します．最終的に，ユーザに対して生活支援サービスを提供するためにロボットやデバイスを制御します．これらの研究を通して，ユーザが特別な操作を行わなくても，自然に利用できる快適で安全な環境の実現を目指しています．
+  image: /images/projects/iSpace.png
+  themes:
+    - smart-space-services
+  order: 2
+
+- id: hri
+  title: Human-Robot Interaction
+  title_jp: HRI
+  description: The HRI (Human-Robot Interaction) group studies interaction design that enables humans and robots, or humans and intelligent systems, to communicate and collaborate safely and naturally. The research topics include the design of communication systems between humans and robots, the robot-based understanding of human psychological states, and educational support through care-training robots. Through these studies, the group investigates which motions, facial expressions, and responses allow people to intuitively understand robot or system behavior and accept it with confidence. The research also focuses on situations where humans and machines interact at close range, such as medical settings, nursing care, and public facilities. In these contexts, physical safety alone is not sufficient. Psychological comfort and trust are also essential for smooth interaction. By considering both technical performance and human perception, the group aims to develop human-centered systems that can support people safely and naturally in real environments.
+  description_jp: HRI（Human-Robot-Interaction）グループでは，人とロボット，または人と知的システムが安全かつ自然に関わるためのインタラクション設計を研究しています．対象には，人とロボットのコミュニケーションシステムの設計，ロボットによる人間の心理状態の理解，介護訓練ロボットを用いた教育支援などが含まれます．これらの研究を通して，ロボットやシステムがどのような動作，表情，応答を示せば，人が直感的に理解し，安心して受け入れられるかを検討しています．また，医療，介護，公共施設など，人と機械が近い距離で関わる場面を想定し，物理的安全性だけでなく，安心感や信頼感を備えた人間中心のシステムの開発に取り組んでいます．
+  image: /images/projects/HRI.png
+  themes:
+    - hri-communication
+  order: 3

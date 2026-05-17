@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{% assign emptyarray = "" | split: "," %}
+{% assign theme = site.data.research_themes | where: "id", page.theme_id | first %}
+
+{% if theme %}
+  {% assign title = theme.title %}
+  {% assign description = theme.description %}
+
+  {% if site.lang == "jp" %}
+    {% assign title = theme.title_jp | default: theme.title %}
+    {% assign description = theme.description_jp | default: theme.description %}
+  {% endif %}
+
+  {% assign field = site.data.research_fields | where: "id", theme.field_id | first %}
+  {% assign field_title = field.title %}
+
+  {% if site.lang == "jp" %}
+    {% assign field_title = field.title_jp | default: field.title %}
+  {% endif %}
+
+  <section class="research-hero research-hero--compact" style="background-image: url('{{ theme.image | prepend: site.baseurl_root }}')">
+    <div class="research-hero-inner">
+      <p class="research-kicker">
+        {% if site.lang == "jp" %}研究テーマ{% else %}Research Theme{% endif %}
+      </p>
+      <h1>{{ title }}</h1>
+      <p class="research-hero-text">{{ description }}</p>
+      {% if field %}
+        <a class="research-hero-link" href="{{ '/projects/field/' | append: field.id | append: '/' | relative_url }}">
+          {% if site.lang == "jp" %}{{ field_title }}へ{% else %}Back to {{ field_title }}{% endif %}
+        </a>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="research-section">
+    <div class="research-section-head">
+      <h2>{% if site.lang == "jp" %}研究内容{% else %}Research Focus{% endif %}</h2>
+      <!-- <p>{% if site.lang == "jp" %}研究内容を小分類ごとに紹介します。{% else %}Subtopics within this theme.{% endif %}</p> -->
+    </div>
+
+    {% assign subtopics = theme.subtopics | default: emptyarray %}
+    {% if subtopics.size > 0 %}
+      <div class="research-subtopics">
+        {% for subtopic in subtopics %}
+          {% include research-subtopic-row.html subtopic=subtopic index=forloop.index0 %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="research-muted">
+        {% if site.lang == "jp" %}研究内容は準備中です。{% else %}Details coming soon.{% endif %}
+      </p>
+    {% endif %}
+  </section>
+{% else %}
+  <section class="research-section">
+    <h1>Theme not found</h1>
+  </section>
+{% endif %}

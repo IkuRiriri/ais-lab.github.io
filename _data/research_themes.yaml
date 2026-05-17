@@ -1,0 +1,262 @@
+- id: autonomous-mobile-robot
+  field_id: intelligent-robotics
+  title: Autonomous Mobile Robots
+  title_jp: 自律移動ロボット
+  description:  
+  description_jp:  
+  image: /images/projects/intelligent-robotics/autonomous-mobile-robot/autonomous-mobile-robot.jpg
+  subtopics:
+  - title: Cooperative Multi-Robot System for Automated Roadside Weeding
+    title_jp: マルチロボットによる道路除草の自動化
+    description: This study aims to develop a cooperative roadside weeding system using multiple small robots. Roadside weeding still relies heavily on manual labor, leading to labor shortages and heavy physical burdens on workers. However, concentrating sensing, decision-making, and weeding functions in a single advanced robot has limitations in terms of cost, scalability, and practical operation. To address these issues, this study proposes a system comprising three robots a leading robot, a working robot, and an inspection robot. These robots move in a line along the road shoulder, each playing a different role. The leading robot observes terrain conditions and detects obstacles ahead. The working robot uses this information to detect and remove weeds. The inspection robot follows behind, evaluates the work results, and requests additional weeding where necessary. By sharing position data and task status, the robots adjust their spacing, speed, and stopping and restarting timing. This approach is expected to reduce missed weeds and unnecessary movement, resulting in safer, more efficient outdoor weeding.
+    description_jp: 本研究では，複数の小型ロボットが連携して道路脇の除草作業を行うシステムの開発に取り組んでいます．道路除草は現在も人手に頼る部分が大きく，人手不足や作業者の負担が課題となっています．一方で，1台の高機能なロボットに多くの処理を集中させる方法は，コストや運用性の面で限界があります．そこで本研究では，先導ロボット，作業ロボット，確認ロボットの3台が役割を分担し，路肩を一列に移動しながら作業を進める仕組みを目指しています．先導ロボットは前方の地形や障害物を確認し，作業ロボットはその情報を利用して雑草の検出と除去を行います．確認ロボットは後方から作業結果を確認し，必要個所の再除草を指示します．さらに，各ロボットが位置情報や作業状況を共有することで，走行間隔や速度，停止・再開のタイミングを調整します．これにより，刈り残しや無駄な移動を減らし，屋外でも安全で効率的な除草作業の実現を目指しています．
+    media: /images/projects/intelligent-robotics/autonomous-mobile-robot/matsushita.mp4
+
+  - title: Autonomous Robot Navigation System for Semantic Outdoor Map Generation
+    title_jp: 自律移動ロボットによる屋外セマンティックマップの生成
+    description: This study aims to develop a cooperative autonomous navigation system for multiple R4 (Ritsumeikan Road Removal Robot) units by introducing a leading robot that acts as a command unit. The goal is to improve the operational efficiency of autonomous roadside weeding. The leading robot integrates color and depth information obtained from an onboard RGB-D camera to generate a semantic map in real time. This map enables both object identification and three-dimensional position estimation. In addition to obstacle locations, the map includes weed distribution density and terrain attributes. Based on this information, the system dynamically calculates and assigns optimal work areas and travel paths to multiple following weeding robots. The proposed algorithm enables the robots to adjust their tasks and routes in response to changes in the surrounding environment. By closely integrating advanced visual environment recognition with multi-agent cooperative control, this research aims to automate efficient weeding over wide roadside areas, which is difficult to achieve with a single robot.
+    description_jp: 本研究では，自律除草ロボットR4，Ritsumeikan Road Removal Robot，の運用効率を高めるため，司令塔となる先導ロボットを開発し，複数機による協調自律走行システムの構築に取り組んでいます．先導ロボットは，搭載したRGB-Dカメラから得られるカラー情報と深度情報を統合し，物体の識別と三次元的な位置推定を同時に行うセマンティックマップをリアルタイムに生成します．このマップには，障害物の位置に加えて，雑草の分布密度や地形属性を重畳します．さらに，後続する複数の除草ロボットに対して，作業領域の割り当てと移動経路を動的に算出し指示するアルゴリズムを実装します．高度な環境認識とマルチエージェント協調制御を連携させることで，単一機では難しい広域除草作業の効率的な自動化を目指します．
+    media: /images/projects/intelligent-robotics/autonomous-mobile-robot/okada.png
+  order: 1
+
+- id: physical-ai
+  field_id: intelligent-robotics
+  title: Physical AI
+  title_jp: Physical AI
+  description: 　
+  description_jp: 　
+  image: /images/projects/intelligent-robotics/physical-ai/fumimoto.png
+  subtopics:
+  - title: Autonomous Robot Control Balancing Task Execution and Collision Avoidance
+    title_jp: タスク実行と衝突回避を両立するロボットの自律制御
+    description: The research ensures a robot can successfully complete its main tasks while safely working unattended. We achieve this by training the robot within a self-play reinforcement learning framework, allowing it to continuously improve both task execution and collision avoidance. To build deep spatial awareness, the system distills multimodal vision data and internal motor proprioception into a single model that detects potential crashes. If the robot is about to hit itself or an unseen object, this real-time policy anticipates the move to prevent self-destruction and minimize damage to the surroundings. Ultimately, this approach enables reliable, autonomous robot operation in unpredictable environments without the risk of working hazzard.
+    description_jp: 本研究では，未監視環境下でもロボットが安全にタスクを遂行できる自律制御手法の実現を目指しています．予測困難な環境での自律運用には，目的作業の達成だけでなく，自己衝突や周囲の物体との接触を事前に回避する能力が必要です．そこで本研究では，自己対戦型強化学習を用いて，タスク実行能力と衝突回避能力を同時に向上させます．さらに，視覚情報とモータの固有感覚情報を単一モデルに蒸留することで，高度な空間認識を実現します．このモデルは，ロボット自身や未知物体との衝突リスクをリアルタイムに予測し，危険な動作を回避します．これにより，ロボットの破損や周囲への被害を最小限に抑え，災害リスクの少ない信頼性の高い自律運用を可能にします．
+    media: /images/projects/intelligent-robotics/physical-ai/duong.png
+
+  # - title: Robot Navigation Using Campus Map and Vision Information
+  #   title_jp: 視覚情報と地図情報に基づくロボットナビゲーション
+  #   description: This research aims to develop an autonomous mobile robot system using a Vision Language Model (VLM). Conventional robot navigation systems often rely on SLAM-based map generation or pre-defined coordinates. In contrast, this research proposes a system that utilizes campus maps designed for humans together with visual information, enabling the robot to move flexibly while understanding its surrounding environment. Specifically, the system takes camera images and natural language instructions from users as inputs, and the VLM determines navigation routes and robot actions. In addition, to improve localization accuracy, additional annotations will be added to existing map data and integrated with environmental perception. Furthermore, this research will address challenges related to communication between the robot and the server, as well as real-time processing, with the goal of achieving a stable navigation system.
+  #   description_jp: 本研究では，Vision Language Model（VLM）を活用した自律移動ロボットシステムの実現を目指しています．従来のロボットナビゲーションは，SLAMによる地図生成や事前に設定された座標に依存することが多く，環境の変化や人の自然な指示に柔軟に対応することが課題です．そこで本研究では，人間が利用するキャンパスマップとロボットのカメラ画像を組み合わせ，周囲環境を理解しながら移動する仕組みを構築します．具体的には，ユーザの自然言語指示と視覚情報を入力として，VLMが移動経路や行動を判断します．また，既存の地図データに追加注釈を付与し，環境認識と統合することで位置推定精度の向上を図ります．さらに，ロボットとサーバ間の通信やリアルタイム処理の課題にも取り組み，安定したナビゲーションシステムの実現を目指します．
+  #   media: 
+
+  - title: Efficiency Optimization of Object Grasping by Robot Arm Pushing
+    title_jp: ロボットアームの押し動作による物体把持の効率化
+    description: This study integrates pushing manipulation by a robot arm using visual prompts. When humans organize objects on a desk, they not only push an object to a target position but also use different manipulation skills depending on the situation. For example, they gather scattered objects into a single area (grouping) or separate a single object from a cluttered pile (singulation). This research develops a flow-matching-based generative model that integrates these three skills, pushing, grouping, and singulation, into a single policy. In addition, a large vision-language model is used to interpret visual prompts given as points on an image and to understand the intended manipulation. Through this approach, the robot can select and execute appropriate actions from visual information, even in complex real-world environments. Ultimately, the study aims to build an autonomous system capable of performing flexible, advanced object manipulation in a human-like manner.
+    description_jp: 本研究テーマは、視覚的プロンプトを用いたロボットアームによる統合的な「押し（Pushing）」動作の実現です。人間は机を片付ける際、物体を目的の位置へ移動させるだけでなく、複数箇所に散らばった物を一箇所に集めたり（Grouping）、密集した山から一つだけを切り離したり（Singulation）と、多様な押し動作を使い分けています。本研究では、これら３つの異なるスキルを単一のポリシーとして統合する生成モデル（Flow Matching）ベースの手法を構築します。大規模視覚言語モデル（VLM）を利用して画像上の点（視覚的プロンプト）で指示を与えることで、複雑な現実環境においても、ロボットが視覚情報から状況を理解し、人間のように柔軟で高度な物体操作を行える自律システムの構築を目指します。
+    media: /images/projects/intelligent-robotics/physical-ai/fumimoto.png
+  order: 2
+
+- id: momo
+  field_id: intelligent-robotics
+  title: Ceiling-Climbing Robot
+  title_jp: 天井面移動ロボット
+  description: Mobile Module (MoMo) is a ceiling-Climbing robot. By moving along the ceiling, it can navigate the space without obstructing users.
+  description_jp: Mobile Module (MoMo) は，天井面を移動するロボットです．天井面を移動することで，ユーザの邪魔にならずに空間内を移動できます．
+  image: /images/projects/intelligent-robotics/momo/momo.jpg
+  subtopics:
+  - title: Comprehensive Sensing Using Multi-Agent Reinforcement Learning
+    title_jp: マルチエージェント強化学習を用いた網羅的センシングの実現
+    description: This study aims to realize safe collaboration between humans and robots by developing a cooperative tracking system using multiple MoMo robots. For humans and robots to work together safely, it is essential to understand the surrounding environment with few blind spots and high accuracy. In dynamic environments, robots must continuously track and observe target objects or people while autonomously determining their positions and roles according to the situation. To address this challenge, this study applies multi-agent reinforcement learning to control a group of MoMo robots so that they can observe the target from multiple directions without losing coverage. Each robot is assigned a dynamic role, such as a front-view camera, rear-view camera, or overview camera. These roles are switched flexibly in response to the target's motion and changes in the environment. Through this approach, the system aims to achieve seamless and comprehensive sensing, enabling real-time, high-quality spatial understanding in complex human-robot collaborative environments.
+    description_jp: 人間とロボットが安全に協調して作業するには，死角のない高度な環境認識が不可欠です．本研究の目的は，複数台のMoMoを制御してシームレスな網羅的センシングを実現することで，リアルタイムに高品質な空間把握を可能にすることです．動的に変化する環境下で対象を継続的に追跡・観測するためには，ロボット群の配置を状況に応じて自律的かつ最適に決定する仕組みが必要です．本研究では，マルチエージェント強化学習（MARL）を用い，MoMoが対象を死角なく観測し続ける「協調追跡システム」を確立します． 各ロボットに動的な役割（ロール）を与え，状況に応じて「正面からの撮影機」，「背面からの撮影機」，「全体撮影機」などを切り替えながら担うことで，複雑な動的環境に適応可能な群ロボット制御を行います．
+    media: /images/projects/intelligent-robotics/momo/shimizu.png
+
+  - title: High-Speed, Stable Movement of the Ceiling-Mounted Mobile Robot
+    title_jp: 天井面移動ロボットの高速・安定走行の実現
+    description: This study proposes an improved structure for the Mobile Module (MoMo), a ceiling-mounted mobile robot, to achieve faster, more stable movement. MoMo moves while ceiling protrusions pass through rails mounted on its body, and springs press the wheels against the ceiling surface. However, in the conventional structure, friction and interference between the rails and protrusions made movement unstable. To address this issue, both the rail and protrusion structures were improved. The rail was redesigned as a two-layer structure, reducing joints and suppressing interference with the protrusions. In addition, the material was changed from aluminum to acrylic and from polycarbonate to acrylic to reduce weight and improve adaptability to height differences by leveraging their slight deformability during contact. Both ends of the protrusions were designed with circular arcs to improve step-passing performance. As a result, improvements in moving speed, maximum payload, and movement stability were confirmed. Future work will examine autonomous recovery from abnormal states, abnormality detection, and avoidance methods.
+    description_jp: 本研究では，天井面移動ロボットMobile Module（MoMo）の高速かつ安定した移動を実現するため，レール構造と突起構造を改良しています．MoMoは，機体に搭載したレールに天井面の突起を通し，ばねで車輪を押し付けながら移動します．しかし，従来構造ではレールと突起の摩擦や干渉により，走行が不安定になる課題がありました．そこで，レールを上下二層構造として継ぎ目を削減し，突起との干渉を抑制しました．また，材質をアルミニウムからアクリルおよびポリカーボネートへ変更し，軽量化と段差追従性の向上を図りました．さらに，突起両端を円弧形状にすることで段差通過性能も改善しています．その結果，移動速度，最大積載重量，移動安定性の向上を確認しています．現在は，異常状態からの自律復帰制御や異常検知，回避手法を検討しています．
+    media: /images/projects/intelligent-robotics/momo/fujii.png
+  order: 3
+
+- id: slam
+  field_id: intelligent-robotics
+  title: SLAM
+  title_jp: SLAM
+  description:  
+  description_jp:  
+  image: /images/projects/intelligent-robotics/slam/kawahara.png
+  subtopics:
+  - title: Self-localiztion using thermal images
+    title_jp: 熱赤外線画像を用いた自己位置推定
+    description: This study aims to develop a self-localization method using thermal images to enable robots to move accurately at night or in dark environments. The main feature of this research is the adaptation of a deep learning model trained with visible-light camera images to thermal infrared camera images. Thermal infrared cameras can capture images in the dark. Still, their images often have low contrast and unclear details, making it difficult for robots to recognize environmental features and estimate their position. To address this issue, the proposed method transfers clear feature information obtained from visible-light images into the learning process, enabling the model to extract stable environmental structures from thermal images. As a result, robots can estimate their own position in real time and perform safe navigation and mapping even in harsh outdoor environments without streetlights. In the future, this technology is expected to realize autonomous systems that operate regardless of lighting conditions and contribute to automated nighttime security and patrol tasks.
+    description_jp: 本研究では，夜間や暗所でもロボットが正確に移動するための，熱画像を用いた自己位置推定技術を開発しています．本手法の特徴は，可視光カメラ画像で構築した深層学習モデルを，熱赤外線カメラ画像用に活用する点です．熱赤外線カメラは暗闇を観測できますが，画像が不鮮明になりやすく，ロボットが環境の特徴を捉えにくいという課題があります．そこで，可視光画像から得られる鮮明な特徴情報を学習に反映し，熱画像からも環境構造を安定して読み取れるようにします．これにより，街灯のない屋外などの過酷な環境でも，ロボットが自己位置をリアルタイムに推定し，安全な移動や地図作成を行うことが可能になります．将来的には，明るさに依存せず自律的に活動できるシステムを実現し，夜間の警備や巡回作業の自動化に貢献することを目指します．
+    media: /images/projects/intelligent-robotics/slam/kawahara.png
+  order: 4
+
+- id: 3d-reconstruction
+  field_id: intelligent-robotics
+  title: 3D Reconstruction
+  title_jp: 三次元再構築
+  description:  
+  description_jp:  
+  image: /images/projects/intelligent-robotics/3d-reconstruction/ippitsu.png
+  subtopics:
+  - title: 3D Environmental Information Acquisition via Handheld Measurement Device
+    title_jp: ハンドヘルドデバイスを用いた3D環境情報の収集
+    description: This study focuses on developing an original 3D SLAM system based on FAST-LIO2 to accurately acquire and utilize three-dimensional information from real environments. The proposed system integrates sensor data primarily from LiDAR and IMU sensors. It generates point cloud maps of indoor spaces and the areas around facilities using a handheld measurement device. Camera information may also be incorporated when necessary to improve the stability of self-localization and environmental recognition. The acquired point clouds are used not only for visualization, but also as fundamental data for understanding the shapes of spaces and facilities. The system also emphasizes practical usability in field environments, enabling flexible measurement in locations where installing fixed equipment is difficult. In the future, the study aims to represent building interiors and facility structures as three-dimensional models from the acquired point clouds. Through this approach, the research is expected to contribute to applications such as maintenance inspection, spatial recording, and digital twins.
+    description_jp: 本研究では，FAST-LIO2を基盤とした独自の3D SLAMシステムを構築し，実環境の3次元情報を高精度に取得・活用する手法の研究に取り組んでいます．LiDARとIMUを中心としたセンサ情報を統合し，ハンドヘルド型の計測装置によって，屋内や設備周辺の点群地図を生成します．また，必要に応じてカメラ情報の利用も視野に入れ，より安定した自己位置推定と環境認識の実現を目指します．取得した点群は，単なる可視化だけでなく，空間や設備の形状を理解するための基礎データとして活用します．将来的には，取得点群から建物内部や設備構造を3Dモデルとして表現し，保守点検，空間記録，デジタルツインなどへの応用につなげることを目指しています．
+    media: /images/projects/intelligent-robotics/3d-reconstruction/ippitsu.png
+  order: 5
+
+# - id: object-detection
+#   field_id: intelligent-robotics
+#   title: Object Detection
+#   title_jp: 物体検出
+#   description: Details coming soon.
+#   description_jp: 詳細は準備中です。
+#   image: /images/r4/r4_contents.jpg
+#   subtopics: []
+#   order: 6
+
+################################################
+
+- id: space-recognition
+  field_id: intelligent-space
+  title: Space Recognition
+  title_jp: 空間理解
+  description: 　
+  description_jp: 　
+  image: /images/projects/ispace/space-recognition/chenj.png
+  subtopics:
+  - title: Living Support System Using Multimodal Situation Understanding
+    title_jp: マルチモーダル環境認識による生活支援システムの開発
+    description: This study aims to develop an intelligent living support system that understands users' states and behaviors in a smart environment. The system collects information from indoor cameras, environmental sensors, and wearable devices, including user location and actions, room temperature, illuminance, heart rate, and body temperature. By integrating heterogeneous data, the system estimates the user’s current situation. It provides appropriate support, such as controlling home appliances accordingly. For example, when the room temperature is high, and changes are observed in the user’s body temperature or heart rate, the system can operate a fan by considering both environmental information and biological information. Furthermore, by combining these data with camera-captured human motion information, the system can infer internal states, such as fatigue or heat discomfort, that are difficult to determine from images alone. Through this approach, the study aims to create a natural and user-friendly living support environment.
+    description_jp: 本研究では，知能化空間においてユーザの状態や行動を理解し，日常生活を適切に支援するシステムの実現を目指しています．室内カメラや環境センサ，ウェアラブル端末から，ユーザの位置や行動，室内の温度，照度，心拍数，体温などを取得します．これらの情報を統合することで，ユーザが置かれている状況を推定し，その状況に応じた家電制御や生活支援を行います．例えば，室温が高く，体温や心拍数にも変化が見られる場合には，扇風機を稼働させるなど，環境情報と生体情報の両方を考慮した支援を提供します．さらに，カメラで取得した動作情報と組み合わせることで，画像だけでは判別しにくい疲労や暑さなどの内的状態も推察できます．これにより，ユーザにとって自然で使いやすい生活支援環境の構築を目指します．
+    media: /images/projects/ispace/space-recognition/chenj.png
+
+  - title: Situation Understanding Using Temporal Scene Graphs with Multi-Camera
+    title_jp: 複数カメラによる時系列シーングラフを用いた状況認識
+    description: This study aims to develop a method for situation understanding in intelligent spaces using multiple cameras and temporal scene graphs. In an intelligent space, machines need to understand what is happening in a room by recognizing relationships among people, objects, and actions. However, a single camera may fail to observe people or objects hidden behind obstacles, making robust recognition difficult. In addition, directly feeding video data into an AI model makes it difficult to handle temporal changes and event flow. To address these issues, the proposed method observes a room from multiple viewpoints. It represents relationships among people, objects, and actions as scene graphs. These graphs are then connected along the time axis to construct temporal scene graphs. By inputting them into a large language model, the study examines applications such as situation description, question answering, and action support based on a structured understanding of indoor events.
+    description_jp: 本研究では，知能化空間においてロボットが室内で発生する出来事を理解するため，複数カメラによる時系列シーングラフを用いた状況認識手法を開発しています．知能化空間では，人，物体，行動の関係を正確に把握することが重要です．しかし，単一カメラでは物陰による遮蔽の影響を受けやすく，人物や物体を十分に観測できない場合があります．また，映像をそのままAIに入力する方法では，時間的な変化や出来事の流れを扱いにくいという課題があります．そこで本研究では，複数のカメラで室内を観測し，人物，物体，行動の関係をシーングラフとして表現します．さらに，それらを時間方向につなげた時系列シーングラフを構築し，LLMに入力することで，状況説明，質問応答，行動支援への応用を目指します．
+    media: /images/projects/ispace/space-recognition/morita.png
+
+  - title: Spatial Log System for Recording Relationships Between People and Objects
+    title_jp: 人と物体の関係を記録する空間ログ生成
+    description: This study focuses on a spatial log system for realizing an intelligent space that provides appropriate services to users. The proposed system records human actions and environmental changes, enabling the space to understand what happened and support users based on their activity history. Multiple sensors are installed in the space, and people are detected using RGB-D cameras and YOLO. The system also recognizes objects that have been moved through human actions and identifies who moved which object. In addition, to acquire more detailed information about target objects, the system uses the mobile robot Kachaka equipped with a camera mounted on an arm. The robot moves to the target object's position and observes it at close range, complementing information that is difficult to obtain with fixed sensors alone. Through this approach, the study aims to understand in detail the relationships between people and objects and to apply spatial logs to intelligent support services in daily environments.
+    description_jp: 本研究では，ユーザに適切なサービスを提供する知能化空間の実現を目的として，空間内で発生する人物行動や物体変化を記録する空間ログシステムの研究を行っています．空間内には複数のセンサを設置しており，RGB-DカメラとYOLOを用いて人物の検出を行っています．また，人物の行動に伴って移動した物体を認識し，誰がどの物体を動かしたかを把握できるようにしています．さらに，対象物体に関するより詳細な情報を取得するために，移動ロボットKachakaとアーム付きカメラを活用し，対象物体の位置まで移動して近距離から観測を行います．これにより，空間内での人と物体の関係性を詳細に理解し，行動履歴を活用した支援システムへの応用を目指しています．
+    media: /images/projects/ispace/space-recognition/kawai.png
+
+  - title: Multi-Tracking System with Face Recognition Using Multiple Cameras
+    title_jp: 複数カメラを用いた顔認識付きマルチトラッキングシステムの開発
+    description: This study aims to develop a person identification system for intelligent spaces that is location-independent. In conventional methods, face recognition is performed at fixed points, such as entrances, and a person’s name is associated with their position. Therefore, users must be aware of the camera and behave in a way that allows it to be recognized. In addition, face recognition and person tracking, or ReID, operate independently, which can cause identity switching when a person is occluded or tracked for a long time. To address these issues, this study re-executes face recognition at appropriate times during the tracking process. It integrates information from multiple DINDs (distributed intelligent network devices) equipped with cameras and sensors. By combining these data, the system maintains consistent personal identification across the entire space. Through this approach, the study aims to realize an intelligent space that users can access naturally without performing any special actions.
+    description_jp: 本研究では，知能化空間において，特定の場所に依存しない人物識別システムの構築を目指しています．従来手法では，入口などの特定地点で顔認識を行い，名前と位置を対応付けていたため，ユーザがカメラを意識して行動する必要がありました．また，顔認識と人物追跡，ReID，が独立して動作するため，遮蔽物や長時間の追跡によってIDの切り替わりが発生する課題があります．そこで本研究では，人物追跡中に適切なタイミングで顔認識を再実行し，複数のDIND（カメラやセンサを備えた分散知能デバイス）から得られる情報を統合します．これにより，空間全体で一貫した個人識別を実現し，ユーザが特別な操作を行わなくても自然に利用できる知能化空間の構築を目指します．
+    media: /images/projects/ispace/space-recognition/nakai.png
+  order: 1
+
+- id: service-design
+  field_id: intelligent-space
+  title: Service Design
+  title_jp: サービス設計
+  description: 　
+  description_jp: 　
+  image: /images/projects/ispace/yoshida.png
+  subtopics:
+  - title: Spatial coding for smart home
+    title_jp: スマートホームのための空間コーディングの設計
+    description: This study aims to develop a spatial coding technology that enables users to define the behaviors of robots and home appliances through a graphical user interface. To realize an intelligent space, it is necessary to create an environment that is convenient and comfortable for each user. However, the functions required in such a space differ depending on individual needs, and it is difficult for users without programming expertise to configure device behaviors flexibly. To address this issue, the proposed method allows users to assign services directly to virtual areas in the physical environment. For example, a virtual area can be set under a blue chair, and a service can be designed so that a fan starts operating when a person stays in that area for five seconds. By using this technology, users can design spatial behaviors according to their own purposes and daily situations. Ultimately, this study aims to create a comfortable, intelligent environment that can be customized by users themselves.
+    description_jp: 知能化空間を実現するためには，ユーザにとって便利で快適な環境を構築することが重要です．しかし，空間に求められる機能はユーザごとに異なり，専門的なプログラミング技術がなければ，ロボットや家電の動作を柔軟に設定することは容易ではありません．そこで本研究では，GUI上でロボットや家電のふるまいを直感的に定義できる「空間コーディング」技術を開発しています．例えば，青い椅子の下に仮想的なエリアを設定し，そのエリアに人が5秒間滞在した場合に扇風機が稼働するサービスを設計できます．この仕組みにより，専門知識の有無にかかわらず，ユーザの目的や生活場面に応じたサービスを構築できます．将来的には，ユーザ自身が空間のふるまいを自由にデザインできる，快適で賢い環境の実現を目指します．
+    media: /images/projects/ispace/service-design/yoshida.png
+  order: 1
+
+################################################
+
+- id: grasping-support
+  field_id: hri
+  title: Grasping Support
+  title_jp: 把持支援
+  description:  
+  description_jp:  
+  image: /images/projects/hri/grasping-support/angga.png
+  subtopics:
+  - title: Assistive hand movement control based on low-density sEMG
+    title_jp: 低密度sEMGによる手腕動作の認識
+    description: This research investigates a low-density sEMG-based control framework for personal assistive hand movement, targeting post-stroke or hand-impaired users. Instead of relying on many EMG channels or highly generalized cross-subject models, this work focuses on a practical three-sensor setup placed on selected forearm muscles. The system aims to decode the user’s intended hand or wrist movement from the healthy side and translate it into control signals for a robotic hand, gripper, or future exoskeleton device. The main research challenge is not only gesture classification accuracy, but the reliability of sEMG interpretation under realistic conditions, including inter-subject variability, session-to-session signal changes, electrode placement differences, and real-time constraints. Therefore, the proposed direction emphasizes personal calibration, robust segmentation, compact feature representation, and stable control-oriented recognition. The expected contribution is a practical proof-of-concept architecture showing that minimal sEMG sensing can support personalized assistive control for improving hand function and quality of life.
+    description_jp: 本研究では，脳卒中や手腕に障害を持つユーザを対象に，低密度なsEMG（surface Electromyography）に基づく個人向け手腕動作支援フレームワークを開発します．sEMGは，皮膚表面の電極で筋収縮に伴う微小な筋電位を計測する手法です．本システムでは，多数のEMGチャンネルや汎用的な被験者間モデルに依存せず，前腕の選定筋に配置した3つのセンサから健側の手指や手首の運動意図を推定します．得られた情報をロボットハンド，グリッパ，また外骨格デバイスの制御信号へ変換することで，個人に適応した支援制御の実現を目指します．識別精度だけでなく，被験者の差異や電極位置のずれに対するロバスト性を高めることで，最小限のsEMG計測で手腕機能と生活の質の向上を支援できる実証的構成を示すことをゴールとして定めています．
+    media: /images/projects/hri/grasping-support/angga.png
+
+  - title: Grasp assistance device for daily living support
+    title_jp: 日常支援のための把持補助デバイスの開発
+    description: My research focuses on a grasp assistance method using a tendon-driven robotic hand/exoskeleton powered by a single motor. The study aims to support people with reduced grip strength, especially in aging societies, by developing a lightweight, low-cost, and user-friendly system. In this system, a single DYNAMIXEL motor controls multiple fingers cooperatively through a wire-driven mechanism that enables flexion and extension motions. In addition, the system performs grasp control without using external sensors by utilizing motor current values and position information, achieving both structural simplicity and operational safety. The research also investigates switching control modes according to different objects and estimating grasp states for stable grasping performance. In the future, this system is expected to be applied to daily life support and rehabilitation fields.
+    description_jp: 本研究では，単一モータと腱駆動機構を用いたロボットハンドおよび外骨格による把持支援手法を開発しています．高齢者は，握力低下により日常動作が困難になる場合があり，外骨格に取り付けたデバイスで指の動きを制御することで把持動作を支援するデバイスが必要です．ただし，実用性の観点では，軽量かつ低コストであることが望ましいです．そこで本システムでは，1台のDYNAMIXELモータでワイヤを駆動し，複数指の屈曲と伸展を協調的に制御する機構を研究しています．また，外部センサを用いず，モータ電流値と位置情報を利用して把持状態を判断することで，構造の簡素化と安全な動作の両立を図ります．さらに，把持対象に応じた制御モードの切り替えや，把持状態推定に基づく安定した把持制御機能も実装することで，日常生活支援やリハビリテーション分野への応用を目指します．
+    media: /images/projects/hri/grasping-support/luo.png
+  order: 1
+
+- id: quadrupedal-locomotion
+  field_id: hri
+  title: Quadrupedal Locomotion
+  title_jp: 四足歩行ロコモーション
+  description: 
+  description_jp: 
+  image: /images/projects/hri/quadrupedal-locomotion/quadrupedal-locomotion.jpg
+  subtopics:
+  - title: Pedestrian Guidance Using Nonverbal Communication by a Quadruped Robot
+    title_jp: 非言語コミュニケーションを用いた四足歩行ロボットによる歩行者誘導
+    description: This study aims to develop a pedestrian guidance method using nonverbal communication by a quadruped robot. In addition to conventional speech-based guidance methods, intuitive communication through robot motion can enable smoother interaction between humans and robots. This research focuses on nonverbal expressions, such as gestures and gait changes. It proposes a method in which the robot presents appropriate movements based on the person being guided's situation. By doing so, the robot encourages pedestrians to follow it naturally without requiring them to understand complex instructions. The proposed method also considers safety and comfort during guidance, including avoiding physical collisions with other pedestrians and maintaining an appropriate interpersonal distance that does not cause psychological pressure. Through this approach, the study aims to reduce the burden on humans of adapting to robot-specific behavior and to realize safe, comfortable, and intuitive pedestrian guidance. In the future, this technology is expected to be applied to guidance systems in public facilities.
+    description_jp: 本研究では，非言語コミュニケーションを用いた四足歩行ロボットによる歩行者誘導手法の構築を目指しています．従来の音声案内に加えて，ロボットの動作を介した直感的な意思伝達を実現することで，人とロボットのより円滑な相互作用が可能になります．本研究では，仕草や歩容の変化などの非言語表現に着目し，誘導対象者の状況に応じた動作を提示することで，歩行者の自然な追従を促します．また，誘導中には他の歩行者との物理的衝突を回避し，心理的な威圧感を与えない適切な対人距離を維持することも考慮します．これにより，人がロボットの仕様に合わせる負担を減らし，直感的な意図伝達による安全で快適な誘導の実現を目指します．将来的には，公共施設などで人々を案内するロボットシステムへの応用が期待されます．
+    media: /images/projects/hri/quadrupedal-locomotion/mitsushima.png
+  order: 2
+
+- id: face-generation
+  field_id: hri
+  title: Face Generation
+  title_jp: 表情生成
+  description:  
+  description_jp:  
+  image: /images/projects/hri/face-generation/nguyen.png
+  subtopics:
+  - title: 3D Avatar Reconstruction for Robotic system
+    title_jp: ロボットのための3Dアバター再構築
+    description: This research advances the development of high-fidelity digital twins for robotic systems, bridging the critical gap between human facial appearance and behavioral synthesis. Utilizing multi-view acquisition and state-of-the-art computer graphics, the study reconstructs realistic 3D avatars and behavioral clones designed to disentangle universal facial morphology from personalized, non-verbal cues. The technical framework employs dual deep learning pipelines to achieve this synthesis. To model non-verbal facial behavior, a neural network is trained on extensive dyadic interaction datasets, capturing the intricate social nuances of human engagement. Simultaneously, appearance reconstruction is facilitated by a model trained on large-scale datasets of facial profiles performing diverse expressions. This allows the system to accurately map facial geometry and the underlying mechanical nuances of human expression. Ultimately, these digital twins function as the foundational architecture for next-generation robotic facial interfaces. By integrating these high-fidelity models into virtual and mixed reality (VR/MR) environments, this research significantly enhances the realism and clinical efficacy of medical training simulations, providing practitioners with more responsive and lifelike patient-interaction experiences.
+    description_jp: 本研究は，ロボットシステム向けの動的なデジタルツインの実現を目指し，マルチビュー画像とコンピュータグラフィックスを用いて普遍的な形状と個人特有の非言語特徴を分離することにより，写実的な3Dアバターと顔面の動きを再構築することに取り組んでいます．本フレームワークでは，複雑な社会的ニュアンスを捉えつつ非言語的な顔の動きをモデル化するために，多様な表情プロファイルを含む二者間インタラクションデータセットを用いてニューラルネットワークを学習させています．これらのデジタルツイン技術は，次世代ロボットの顔インターフェースにおける基盤アーキテクチャとして機能します．例えば，これらのモデルをVR（仮想現実）やMR（複合現実）環境に統合して医療訓練シミュレーションのリアリティと臨床効果を高めることで，医療従事者に対して，緊張感や現実感をより強く実感できる患者とのインタラクション体験を提供できます．
+    media: /images/projects/hri/face-generation/nguyen.png
+
+  - title: Natural Pain Facial Expression Generation for a Robot Patient Simulator
+    title_jp: ロボット患者シミュレータの自然な痛み表情の生成
+    description: This study focuses on facial expression generation for a robot patient simulator, aiming to better represent patient pain. In medical education, students need to observe a patient’s facial expressions and reactions as they learn to assess the situation and respond appropriately. If a robot patient can display expressions that reflect the degree and condition of pain, it can provide a more practical training environment for clinical practice. This study focuses on facial Action Units (AUs), which describe movements of facial parts. It analyzes how movements around the brow, eyes, and mouth affect the naturalness of pain expressions. In addition, impression evaluations are conducted to investigate which types of facial changes lead observers to perceive the expression as painful and natural. Through these analyses, the study aims to develop a clear and natural pain expression generation system that can be applied to medical education and nursing training.
+    description_jp: 本研究では，ロボット患者シミュレータにおいて，患者の痛みを自然に表現する顔表情生成技術を開発しています．医療教育では，学生が患者の表情や反応を観察し，状態を判断しながら適切な対応を学ぶことが重要です．そのため，ロボット患者が痛みの程度や状況に応じた表情を示せれば，より実践的な訓練環境の構築につながります．本研究では，顔の動きを表すAction Units（AUs）に着目し，眉間，目元，口元の動きが痛み表情の自然さに与える影響を分析します．さらに，生成した表情に対する印象評価を行い，どのような変化が痛そうで自然に見えるかを検討します．最終的には，医療教育や看護訓練に活用できる，分かりやすく自然な痛み表情生成システムの実現を目指します．
+    media: /images/projects/hri/face-generation/chenh.png
+  order: 3
+
+- id: conversational-ai
+  field_id: hri
+  title: Conversational AI
+  title_jp: 対話システム
+  description:  
+  description_jp:  
+  image: /images/projects/hri/conversational-ai/hanai.png
+  subtopics:
+  - title: Mental Care Dialogue System Emphasizing Empathetic Active Listening
+    title_jp: 共感的傾聴を重視したメンタルケア対話システムの開発
+    description: This study aims to develop a chatbot that supports daily mental health care by using a large language model, LLM. In modern society, many people experience stress and anxiety. Still, consultation with specialists is often delayed because of time constraints or psychological hesitation, such as wondering whether their concerns are serious enough to discuss. To address this issue, the proposed system incorporates knowledge from clinical psychology into prompts for the LLM. This design suppresses AI's tendency to provide immediate advice. Instead, it emphasizes active listening based on empathy and unconditional positive regard. In addition, the system leverages AI's anonymity and nonjudgmental nature to encourage users to disclose concerns they may otherwise hesitate to share with others. By providing an environment where users can easily express their feelings, this research aims to establish an autonomous mental care system that helps reduce psychological burden at an early stage.
+    description_jp: 本研究では，大規模言語モデル，LLM，を活用し，日常的なメンタルヘルスを支援するチャットボットの構築を目指しています．現代社会ではストレスや不安を抱える人が多い一方で，時間的制約や心理的なためらいにより，専門家への相談が遅れる場合があります．そこで本研究では，臨床心理学の知見をプロンプトとしてLLMに組み込み，すぐに助言を与えるのではなく，共感と無条件の肯定的関心に基づく傾聴を重視した対話を実現します．また，AIの匿名性と非評価的な特性を活かし，人間相手では話しにくい悩みの自己開示を促します．これにより，誰もが気軽に心の内を話せる環境を提供し，精神的負担を早期に軽減する自律的なメンタルケアシステムの確立を目指します．
+    media: /images/projects/hri/conversational-ai/hanai.png
+  order: 4
+
+- id: robotic-art
+  field_id: hri
+  title: Robotic Art
+  title_jp: ロボットアート
+  description:  
+  description_jp:  
+  image: /images/projects/hri/robotic-art/robotic-art.png
+  subtopics:
+  - title: 3D Mosaic Art System using a Robot Arm
+    title_jp: ロボットアームを用いた立体モザイクアート生成
+    description: My research focuses on developing a "Robotic Mosaic Art System" that generates intricate mosaic art by precisely arranging small parts using a robotic arm.The most prominent feature of this system is its ability to transform flat, two-dimensional paintings into tangible three-dimensional artworks. To achieve this, the system analyzes "semantic regions" and "depth" information extracted from the original images. Based on this visual data, it reconstructs a 3D structure, and the robotic arm physically stacks the parts layer by layer. Furthermore, the system incorporates a real-time observation mechanism using a camera. By continuously recognizing the current state of the workspace, it dynamically determines the optimal placement for the next part. This responsiveness allows the system to flexibly adapt to human interventions, such as a user manually adding or adjusting parts during the ongoing assembly process. Rather than merely programming a robot to repeat predefined mechanical movements, my ultimate goal is to create an interactive system. By allowing humans and robots to mutually influence each other, they can collaborate seamlessly to build a completely unique and original piece of art together.
+    description_jp: 本研究では，ロボットアームを用いて小さなパーツを配置し，モザイクアートを生成する「ロボティクスモザイクアートシステム」を開発しています．最大の特徴は，平面的な絵画から立体的な作品を生み出す点です．画像から「意味的領域」と「奥行き」の情報を分析し，立体構造に変換したうえで，ロボットアームがパーツを積層していきます．また，カメラで現在の状況をリアルタイムに認識し，状況に応じて次に配置するパーツを動的に決定する仕組みを取り入れています．これにより，作品の生成途中に人間がパーツを追加したり変更したりといった介入にも柔軟に対応可能です．単にロボットが機械的な動きを繰り返すのではなく，人間とロボットが互いに影響を与え合いながら，一つのオリジナル作品を協働で作り上げるシステムを目指しています．
+    media: /images/projects/hri/robotic-art/park.mp4
+  order: 5
+
+- id: emotion-recognition
+  field_id: hri
+  title: Emotion Recognition
+  title_jp: 感情認識
+  description:  
+  description_jp:  
+  image: /images/projects/hri/emotion-recognition/mahin.png
+  subtopics:
+  - title: Development of Smart Mirror System with Real-Time Emotion Recognition 
+    title_jp: リアルタイム感情認識スマートミラーシステムの開発
+    description: My research focuses on developing an emotion-aware Smart Mirror system that can recognize human emotions in real time using deep learning and intelligent display technology. The main goal of this project is to improve human–machine interaction by enabling intelligent systems to understand and respond to human emotional states.The research will begin with building a facial emotion recognition model using the FER-2013 dataset. After evaluating and optimizing the model to achieve reliable performance, larger datasets such as RAF-DB and AffectNet will be used to further improve accuracy and robustness. The optimized model will then be integrated into a small robotic Smart Mirror system equipped with a camera, where real-time facial images will be captured and analyzed to predict a user’s emotional state.Based on the detected emotion, the system will provide adaptive feedback through visual or verbal responses, creating a more interactive and empathetic user experience. This project combines computer vision, deep learning, and intelligent interface design using tools such as Python, PyTorch/TensorFlow, and OpenCV.The expected outcome is a functional prototype that can serve as a foundation for future emotion-aware systems in healthcare, education, and personal well-being, contributing to the development of more human-centered intelligent environments.
+    description_jp: 本研究では，深層学習とインテリジェントディスプレイ技術を用いて，人の感情をリアルタイムに認識する感情認識スマートミラーシステムを開発しています．本システムは，人の表情から感情状態を推定し，その結果に応じた表示や音声応答を行うことで，人と機械のより自然な相互作用を実現することを目的としています．まず，FER-2013データセットを用いて表情感情認識モデルを構築し，評価と最適化を行います．その後，RAF-DBやAffectNetなどの大規模データセットを利用し，認識精度と頑健性の向上を図ります．最適化したモデルは，カメラを備えた小型ロボット型スマートミラーに実装し，取得した顔画像から感情を推定します．将来的には，医療，教育，ウェルビーイング分野で活用できる人間中心の知能化環境の基盤構築を目指します．
+    media: /images/projects/hri/emotion-recognition/mahin.png
+  order: 6

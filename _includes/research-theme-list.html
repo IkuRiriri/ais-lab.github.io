@@ -1,0 +1,7 @@
+{% assign themes = site.data.research_themes | where: "field_id", include.field_id | sort: "order" %}
+
+<div class="research-themes">
+  {% for theme in themes %}
+    {% include research-theme-card.html theme=theme %}
+  {% endfor %}
+</div>
