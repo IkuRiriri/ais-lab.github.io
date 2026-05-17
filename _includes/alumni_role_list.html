@@ -4,44 +4,37 @@
   {%- if faculties.size > 0 -%}
     <ul class="faculty-list" style="list-style: none; padding-left: 0;">
       {%- for member in faculties -%}
-        <li style="margin-bottom: 5px;">
-          {% comment %} --- 1. 名前の表示 --- {% endcomment %}
-          {%- if site.lang == "jp" -%}
-            {{ member.name_jp }}
-          {%- else -%}
-            {{ member.name }}
-          {%- endif -%}
-
-          {% comment %} --- 2. 役職の表示 --- {% endcomment %}
-          {%- if member.job_title or member.job_title_jp -%}
-            {{ " " }} {%- comment -%}半角スペース{%- endcomment -%}
-            {%- if site.lang == "jp" -%}
-              {{ member.job_title_jp }}
-            {%- else -%}
-              {{ member.job_title }}
-            {%- endif -%}
-          {%- endif -%}
-
-          {% comment %} --- 3. 括弧内の情報 (任期・所属) --- {% endcomment %}
-          {%- if member.term or member.affiliation -%}
-            {{ " " }} {%- comment -%}半角スペース{%- endcomment -%}
-            {%- if site.lang == "jp" -%}
-              (
+         <li style="margin-bottom: 5px; display: grid; grid-template-columns: 6.5em 9.5em 9em auto; column-gap: 0.5em; align-items: start;">
+          {% comment %} --- 表示順: 任期 -> 役職 -> 氏名 -> 現所属 --- {% endcomment %}
+          <span>
             {%- if member.term -%}{{ member.term }}{%- endif -%}
-            {%- if member.term and member.affiliation_jp -%}, {%- endif -%}
-            {%- if member.affiliation_jp -%}{{ member.affiliation_jp }}{%- endif -%}
-            )
-            {%- else -%}
-              (
-              {%- if member.term -%}{{ member.term }}{%- endif -%}
-              {%- if member.term and member.affiliation -%}, {%- endif -%}
-              {%- if member.affiliation -%}{{ member.affiliation }}{%- endif -%}
-              )
+          </span>
+          <span>
+            {%- if member.job_title or member.job_title_jp -%}
+              {%- if site.lang == "jp" -%}
+                {{ member.job_title_jp }}
+              {%- else -%}
+                {{ member.job_title }}
+              {%- endif -%}
             {%- endif -%}
+          </span>
+          <span>
+            {%- if site.lang == "jp" -%}
+              {{ member.name_jp }}
+            {%- else -%}
+              {{ member.name }}
+            {%- endif -%}
+          </span>
+          {%- if member.affiliation or member.affiliation_jp -%}
+            <span>
+              {%- if site.lang == "jp" -%}
+                (現: {{ member.affiliation_jp }})
+              {%- else -%}
+                (Current: {{ member.affiliation }})
+              {%- endif -%}
+            </span>
           {%- endif -%}
-
-          {% comment %} 区切り文字 (&#12288;) と unless は不要 {% endcomment %}
-        </li>
+        </li>
       {%- endfor -%}
     </ul>
   {%- endif -%}

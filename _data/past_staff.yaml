@@ -1,5 +1,5 @@
 - name: Yasuyuki FUJII
-  name_jp: 藤井　康之
+  name_jp: 藤井 康之
   role: "faculty"
   job_title: "Project Assistant Professor"
   job_title_jp: "特任助教"
@@ -35,14 +35,18 @@
   role: "faculty"
   term: "2012-2017"
   term_end_year: 2017
+  affiliation: "Chitose Robotics Inc."
+  affiliation_jp: "株式会社チトセロボティクス"
 
 - name: Ziyan GAO
   name_jp: 高　子焱
   job_title: "Postdoctoral Researcher"
   job_title_jp: "博士研究員"
   role: "faculty"
-  term: "2025-2025"
+  term: "2025"
   term_end_year: 2025
+  affiliation: "Japan Advanced Institute of Science and Technology, Project Assistant Professor"
+  affiliation_jp: "北陸先端科学技術大学院大学　特任助教"
 
 # 短期留学生
 - name: Seongoh Lee

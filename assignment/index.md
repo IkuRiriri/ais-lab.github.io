@@ -34,7 +34,7 @@ Thank you very much for your interest in the Advanced Intelligent Systems Labora
      type="external" 
      icon="fa-solid fa-eye" 
      text="研究室紹介冊子プレビュー" 
-     link="/files/Lab_introduce_booklet.pdf" 
+     link="/files/Lab_introduce_booklet_2026.pdf" 
      tooltip="研究室紹介冊子を見る" 
 %}
 {% when 'en' %}
@@ -45,7 +45,7 @@ The laboratory introduction booklet is available below.
      type="external" 
      icon="fa-solid fa-eye" 
      text="Laboratory Introduction Booklet Preview" 
-     link="/files/Lab_introduce_booklet.pdf" 
+     link="/files/Lab_introduce_booklet_2026.pdf" 
      tooltip="View the Laboratory Introduction Booklet" 
 %}
 {% endcase %}
