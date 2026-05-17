@@ -1,0 +1,24 @@
+{% assign theme = include.theme %}
+{% assign title = theme.title %}
+{% assign description = theme.description %}
+
+{% if site.lang == "jp" %}
+  {% assign title = theme.title_jp | default: theme.title %}
+  {% assign description = theme.description_jp | default: theme.description %}
+{% endif %}
+
+{% if theme.field_id %}
+  {% assign theme_url = "/projects/" | append: theme.field_id | append: "/" | append: theme.id | append: "/" | relative_url %}
+{% else %}
+  {% assign theme_url = "/projects/theme/" | append: theme.id | append: "/" | relative_url %}
+{% endif %}
+
+<a class="research-theme-card" href="{{ theme_url }}">
+  <div class="research-theme-media" style="background-image: url('{{ theme.image | prepend: site.baseurl_root }}')"></div>
+  <div class="research-theme-body">
+    <h3>{{ title }}</h3>
+    <span class="research-theme-cta">
+      {% if site.lang == "jp" %}詳細を見る →{% else %}View details →{% endif %}
+    </span>
+  </div>
+</a>

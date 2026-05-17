@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+{% assign emptyarray = "" | split: "," %}
+{% assign field = site.data.research_fields | where: "id", page.field_id | first %}
+
+{% if field %}
+  {% assign title = field.title %}
+  {% assign description = field.description %}
+
+  {% if site.lang == "jp" %}
+    {% assign title = field.title_jp | default: field.title %}
+    {% assign description = field.description_jp | default: field.description %}
+  {% endif %}
+
+  <section class="research-hero" style="background-image: url('{{ field.image | prepend: site.baseurl_root }}')">
+    <div class="research-hero-inner">
+      <p class="research-kicker">{% if site.lang == "jp" %}研究分野{% else %}Research Field{% endif %}</p>
+      <h1>{{ title }}</h1>
+      <p class="research-hero-text">{{ description }}</p>
+      <a class="research-hero-link" href="{{ '/projects/' | relative_url }}">
+        {% if site.lang == "jp" %}分野一覧へ戻る{% else %}Back to fields{% endif %}
+      </a>
+    </div>
+  </section>
+
+  <section class="research-section">
+    <div class="research-section-head">
+      <h2>{% if site.lang == "jp" %}研究テーマ{% else %}Themes{% endif %}</h2>
+      <!-- <p>{% if site.lang == "jp" %}分野内の研究テーマ一覧です。{% else %}Themes within this field.{% endif %}</p> -->
+    </div>
+    {% include research-theme-list.html field_id=field.id %}
+  </section>
+{% else %}
+  <section class="research-section">
+    <h1>Field not found</h1>
+  </section>
+{% endif %}

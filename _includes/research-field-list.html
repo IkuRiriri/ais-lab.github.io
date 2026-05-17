@@ -1,0 +1,7 @@
+{% assign fields = site.data.research_fields | sort: "order" %}
+
+<div class="research-fields">
+  {% for field in fields %}
+    {% include research-field-card.html field=field %}
+  {% endfor %}
+</div>
