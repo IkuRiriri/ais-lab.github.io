@@ -4,7 +4,7 @@ nav:
   order: 6
   tooltip: tooltips.assignment
 ---
-{% case site.lang %}
+<!-- {% case site.lang %} -->
 <!-- {% when 'jp' %}
 <div style="font-size:1.6em;font-weight:bold;color:red;margin:1.5em 0;text-align:center;">
 これは2025年度版です．2026年度版の公開までしばらくお待ちください．
