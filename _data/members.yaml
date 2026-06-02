@@ -181,9 +181,9 @@
 - name: Ansh Pandey
   name_jp: Ansh Pandey
   role: m
-  image: /images/team/master/AP.jpg
+  image: /images/team/master/AP.png
   url:
-  badges: [Robotics]
+  badges: [VLA, HRI]
   date: 2025-09-01
 
 - name: HASAN Md.Mahin
